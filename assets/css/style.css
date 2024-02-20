@@ -1,0 +1,24 @@
+/* google fonts import */ 
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* To override default styling by browser*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* body */ 
+
+body {
+    font-family:'Times New Roman', Times, serif;
+
+}
+/* Header */ 
+
+header {
+   background-color: #ee0505;
+   color: white; 
+   text-align: center;
+   padding: 0;
+    
+}
