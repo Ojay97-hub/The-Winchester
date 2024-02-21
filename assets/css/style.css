@@ -13,8 +13,8 @@
 /* body */ 
 body {
     /* min-height to ensure content occupies the whole screen (coding2go) */
-    min-height: 100vh; 
-    background-color:  #9a161c;
+    min-height: 100vh;
+    background-color: #f5c0c2;
 
 }
 
@@ -22,8 +22,16 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
+    align-items: baseline;
+    padding-bottom: 30px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 100%;   
+    z-index: 99;
+    border-bottom: 2px solid black;
+    box-shadow: 0 2px 2px grey; 
+    background-color:  #9a161c;
 
 }
 
@@ -33,9 +41,22 @@ header {
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 /* navbar (skillthrive - 3 different types of nav) */ 
+nav {
+    /* taken from love running walkthrough */
+    position: sticky;
+    width: 100%; 
+    left: 0;
+    padding: 0 1rem;
+    margin-top: 15px;
+    display: none;
+    background-color: #9a161c;
+    box-shadow: 0 2px 2px grey;
+    
+}
 
 li, a {
     font-family: "Azeret Mono", monospace;
@@ -49,21 +70,45 @@ li, a {
 
 .nav_links {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .nav_links li {
-    display: inline-block;
+    display: flex;
     padding: 0 20px;
 }
 
 
-a.active, a.hover {
-    background: rgba(13, 105, 128, 1);
-    transition: .5s; 
+a.active:hover {
+    background: rgb(71, 71, 144);
+    border-bottom: 2px solid black;
+    padding: 5px; 
+    border-radius: 20px;
 
 }
 
+/* nav toggle - love running */ 
+#nav-toggle:checked~nav {
+    display: flex;  
+    flex-direction: column;
+    position: absolute;
+    top: 4%;  
+    left: 0;
+}
 
+#nav-toggle {
+    display: none;
+}
 
+.nav-toggle-label {
+    font-size: 2rem;
+    color: #edf0f1; 
+    
+}
 
-
+/* main */ 
+main {
+    background-color: #853438;
+}
