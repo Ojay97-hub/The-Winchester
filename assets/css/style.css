@@ -40,6 +40,16 @@ header {
     text-align: center;
 }
 
+header p {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 500;
+    font-size: 15px;
+    color: #edf0f1;
+    text-decoration: none;
+    flex-wrap: wrap;
+
+}
+
 
 /* navbar (skillthrive - 3 different types of nav) */ 
 nav {
@@ -141,4 +151,21 @@ a.active:hover {
 
 main {
     background-color: #853438;
+    margin: auto;
+}
+
+
+/* footer */ 
+
+footer {
+    background-color: #9a161c;
+    color: #edf0f1;
+    text-align: center;
+    padding: 20px;  
+    border: 2px solid black;
+    bottom: 0%;
+    position: fixed;
+    width: 100%;    
+    height: 10vh;
+
 }
