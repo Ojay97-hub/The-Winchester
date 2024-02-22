@@ -11,7 +11,7 @@
 body {
     /* min-height to ensure content occupies the whole screen (coding2go) */
     min-height: 100vh;
-    background-color: #f5c0c2;
+    background-color: white;
 
 }
 
@@ -115,6 +115,52 @@ a.active:hover {
 
 }
 
+
+
+/* main */ 
+
+main {
+    background-color: #853438;
+    margin: auto;
+}
+
+
+
+
+
+/* footer */ 
+
+footer {
+    background-color: #9a161c;
+    color: #edf0f1;
+    text-align: center;
+    padding: 20px;  
+    border: 2px solid black;
+    bottom: 0%;
+    position: fixed;
+    width: 100%;    
+    height: 10vh;
+
+}
+
+/* footer socials */ 
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+
+}
+
+i {
+    font-size: 160%;
+    padding: 5%;    
+    color: #edf0f1; 
+}
+
+/* media queries */ 
+
 /* taken from love running */ 
 
 @media screen and (min-width: 768px) {
@@ -144,28 +190,4 @@ a.active:hover {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-}
-
-
-/* main */ 
-
-main {
-    background-color: #853438;
-    margin: auto;
-}
-
-
-/* footer */ 
-
-footer {
-    background-color: #9a161c;
-    color: #edf0f1;
-    text-align: center;
-    padding: 20px;  
-    border: 2px solid black;
-    bottom: 0%;
-    position: fixed;
-    width: 100%;    
-    height: 10vh;
-
 }
