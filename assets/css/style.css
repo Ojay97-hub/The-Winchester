@@ -1,14 +1,11 @@
 /* google fonts import */ 
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
-
 /* To override default styling by browser*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
 
 /* body */ 
 body {
@@ -35,14 +32,14 @@ header {
 
 }
 
-#logo {
-    color: #edf0f1; 
-    font-family: "Azeret Mono", monospace;
+ #logo {
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
     text-decoration: underline;
+    text-align: center;
 }
+
 
 /* navbar (skillthrive - 3 different types of nav) */ 
 nav {
@@ -55,7 +52,7 @@ nav {
     display: none;
     background-color: #9a161c;
     box-shadow: 0 2px 2px grey;
-    
+
 }
 
 li, a {
@@ -105,8 +102,9 @@ a.active:hover {
 .nav-toggle-label {
     font-size: 2rem;
     color: #edf0f1; 
-    
+
 }
+
 
 /* main */ 
 main {
