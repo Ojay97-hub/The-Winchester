@@ -17,20 +17,19 @@ body {
 
 /* Header */ 
 header {
+    background-color:  #9a161c;
+    padding: 0 1rem; 
+    position: sticky;
+    z-index: 99;
+    width: 100%;   
+    box-shadow: 0 2px 2px grey; 
+    border-bottom: 2px solid black;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding-bottom: 30px;
-    padding-top: 5px;
-    padding-right: 20px;
-    padding-left: 20px;
-    width: 100%;   
-    z-index: 99;
-    border-bottom: 2px solid black;
-    box-shadow: 0 2px 2px grey; 
-    background-color:  #9a161c;
-
+    
 }
+
 
  #logo {
     font-size: 20px;
@@ -41,21 +40,20 @@ header {
 }
 
 
-
-
 /* navbar (skillthrive - 3 different types of nav) */ 
 nav {
     /* taken from love running walkthrough */
-    position: sticky;
+    position: absolute;
+    background-color: #9a161c;
     width: 100%; 
     left: 0;
     padding: 0 1rem;
-    margin-top: 15px;
     display: none;
-    background-color: #9a161c;
     box-shadow: 0 2px 2px grey;
+    top: 100%;
 
 }
+
 
 li, a {
     font-family: "Azeret Mono", monospace;
@@ -69,15 +67,17 @@ li, a {
 }
 
 .nav_links {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+
 }
 
-.nav_links li {
+.nav_links > li {
+    margin-bottom: 1em;
     display: flex;
-    padding: 0 20px;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -89,13 +89,11 @@ a.active:hover {
 
 }
 
+
 /* nav toggle - love running */ 
 #nav-toggle:checked~nav {
-    display: flex;  
-    flex-direction: column;
-    position: absolute;
-    top: 4%;  
-    left: 0;
+    display: block; 
+
 }
 
 #nav-toggle {
@@ -148,18 +146,18 @@ footer {
     background-color: #9a161c;
     color: #edf0f1;
     text-align: center;
-    padding: 20px;  
+    padding: 10px;  
     border: 2px solid black;
     bottom: 0%;
     position: fixed;
     width: 100%;    
-    height: 10vh;
+    height: 8vh;
 
 }
 
 /* footer socials */ 
 
-ul {
+footer > ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -187,12 +185,24 @@ i {
         padding-right: 1rem;
     }
 
+    #nav-toggle:checked~nav {
+        display: flex;  
+        flex-direction: column;
+        text-align: center;
+        position: fixed;
+        top: 4%;  
+        left: 0;
+
+    }
+
     .nav_links {
         display: flex;
+       
     }
 
     .nav_links > li {
         padding-left: 1rem;
+        margin-bottom: 1em;
     }
 
     .nav-toggle-label {
@@ -205,3 +215,4 @@ i {
         margin: 0 0.5rem;
     }
 }
+
