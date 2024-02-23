@@ -116,16 +116,20 @@ a.active:hover {
 }
 
 
-
 /* main */ 
 
 main {
-    background-color: #853438;
-    margin: auto;
+    flex: 1 0 auto; 
+
 }
 
+/* hero - googled optimised web images */ 
 
-
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url(../images/pexels-erik-mclean-5662826\ \(1\).jpg) no-repeat center center/cover; 
+}
 
 
 /* footer */ 
