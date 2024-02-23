@@ -18,7 +18,7 @@ body {
 /* Header */ 
 header {
     background-color:  #9a161c;
-    padding: 0 1rem; 
+    padding: 15px 1rem; 
     position: sticky;
     z-index: 99;
     width: 100%;   
@@ -62,7 +62,7 @@ li, a {
     color: #edf0f1;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 20px 5px;
+    padding: 5px 5px;
 
 }
 
@@ -101,7 +101,7 @@ a.active:hover {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #edf0f1; 
 
 }
@@ -114,7 +114,7 @@ main {
 
 }
 
-/* hero - googled optimised web images */ 
+/* main > hero - googled optimised web images */ 
 
 #hero {
     height: 600px;
@@ -140,18 +140,19 @@ main {
 
 }
 
+
+
+
 /* footer */ 
 
 footer {
     background-color: #9a161c;
     color: #edf0f1;
     text-align: center;
-    padding: 10px;  
     border: 2px solid black;
     bottom: 0%;
     position: fixed;
     width: 100%;    
-    height: 8vh;
 
 }
 
