@@ -176,15 +176,22 @@ main {
     text-transform: capitalize;
 }
 
-.burger {
-    font-size: large;
+#burgers > .burger-title {
+    font-size: 28px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 15px 1rem;
+
 }
 
 #burgers {
     background-color: white; 
     border: 3px solid #9a161c; 
+    border-radius: 20px;
     color: black; 
     font-size: 80%; 
+    max-width: fit-content; 
+    min-width: auto;
 
 }
 
@@ -196,8 +203,6 @@ main {
 .burger-item {
     margin-bottom: 20px;
     padding: 10px; 
-    border: 1px solid rgb(71, 71, 144);
-    box-sizing: border-box;
 
 }
 
