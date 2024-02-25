@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    overflow: scroll;
+    
 }
 
 /* body */ 
@@ -149,12 +149,13 @@ main {
 #menu {
     font-family: "Azeret Mono", monospace;
     text-align: left;
-    background-color: rgba(154, 22, 29, 0.511);
+    background-color: rgba(42, 0, 2, 0.587);
     color: #edf0f1;
     margin-bottom: 50px;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    border: 2px solid black;
     padding: 64px 1rem;
 
 }
@@ -218,6 +219,7 @@ main {
     max-width: fit-content; 
     min-width: auto;
     padding: 20px 1rem;
+    text-align: center;
 
 }
 
@@ -231,6 +233,8 @@ main {
 
 .sides li {
     color: black; 
+    list-style: none;
+    margin: 20px;
 }
 
 /* Moving the spans to the right! */
