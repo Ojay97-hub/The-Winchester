@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow: scroll;
 }
 
 /* body */ 
@@ -111,6 +112,9 @@ a.active:hover {
 
 main {
     flex: 1 0 auto; 
+    height: 100vh;
+    width: 100%;
+    
 
 }
 
@@ -123,7 +127,7 @@ main {
     position: relative;
 }
 
-#cover-text {
+#cover-text, .motto {
     /* following love running but tailored to my color scheme */
     font-family: "Azeret Mono", monospace;
     font-weight: bold;
@@ -139,8 +143,6 @@ main {
     padding-left: 10px;
 
 }
-
-
 
 
 /* footer */ 
