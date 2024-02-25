@@ -144,6 +144,63 @@ main {
 
 }
 
+/* main > menu */ 
+
+#menu {
+    font-family: "Azeret Mono", monospace;
+    text-align: left;
+    background-color: rgba(154, 22, 29, 0.511);
+    color: #edf0f1;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 64px 1rem;
+
+}
+
+
+.menu-title, .fm {
+    text-align: center;
+    padding: 20px 1rem;
+
+}
+
+#menu-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#menu > h1 {
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.burger {
+    font-size: large;
+}
+
+#burgers {
+    background-color: white; 
+    border: 3px solid #9a161c; 
+    color: black; 
+    font-size: 80%; 
+
+}
+
+#burgers, #sides {
+    flex: 1;
+    padding: 0 1rem; 
+}
+
+.burger-item {
+    margin-bottom: 20px;
+    padding: 10px; 
+    border: 1px solid rgb(71, 71, 144);
+    box-sizing: border-box;
+
+}
+
 
 /* footer */ 
 
