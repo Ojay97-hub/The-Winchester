@@ -223,7 +223,7 @@ main {
 
 }
 
-.sides h1 {
+.sides h2 {
     font-size: 28px;
     text-align: center;
     text-transform: capitalize;
@@ -238,13 +238,13 @@ main {
 }
 
 /* Moving the spans to the right! */
-.burger-item h1, .sides h1 {
+.burger-item h2, .sides h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.burger-item h1 span, .sides h1 span {
+.burger-item h2 span, .sides h2 span {
     text-align: right;
     margin-left: 15px; 
 }
