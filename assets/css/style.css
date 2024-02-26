@@ -161,7 +161,7 @@ main {
 }
 
 
-.menu-title, .fm {
+.menu-title, .fm, .dm  {
     font-size: xx-large;
     text-align: center;
     padding: 20px 1rem;
@@ -178,6 +178,8 @@ main {
     text-decoration: underline;
     text-transform: capitalize;
 }
+
+/* FOOD SECTION */
 
 #burgers > .burger-title {
     font-size: 28px;
@@ -247,6 +249,93 @@ main {
 .burger-item h2 span, .sides h2 span {
     text-align: right;
     margin-left: 15px; 
+}
+
+/* DRINK SECTION */ 
+
+#drink-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+#drink-content .dm {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px 1rem;
+}
+
+/* themed drinks table */
+table {
+    background-color: white; 
+    border: 3px solid #9a161c; 
+    border-radius: 20px;
+    color: black; 
+    font-size: 80%; 
+    max-width: fit-content; 
+    min-width: auto;
+    padding: 20px 1rem;
+    
+}
+
+th, td {
+    border:1px dashed #9a161c;
+    text-align: left;
+}
+
+caption {
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    padding: 15px 1rem;
+    color: #edf0f1;
+}
+
+/* listed drinks */
+
+.other-drinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.other-drinks ul {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.other-drinks > h2 {
+    text-align: center;
+    padding: 15px 1rem;
+
+}
+
+.beer, .wine, b {
+    margin-bottom: 10px;
+}
+    
+.beer, .wine, .soft-drinks {
+    background-color: white; 
+    border: 3px solid #9a161c; 
+    border-radius: 20px;
+    color: black; 
+    font-size: 80%; 
+    max-width: fit-content; 
+    min-width: auto;
+    padding: 20px 1rem;
+    text-align: center;
+
+}
+
+.beer li, .wine li,.soft-drinks li {
+    color: black; 
+    list-style: none;
+    margin: 20px;
 }
 
 
