@@ -240,35 +240,23 @@ main {
 }
 
 /* Moving the spans to the right! */
-.burger-item h2, .sides h2 {
+.burger-item h2, .sides h2, .drink-item h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.burger-item h2 span, .sides h2 span {
+.burger-item h2 span, .sides h2 span, .drink-item h3 span {
     text-align: right;
     margin-left: 15px; 
 }
 
 /* DRINK SECTION */ 
 
-#drink-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
 
-}
+/* themed drinks */ 
 
-#drink-content .dm {
-    text-align: center;
-    align-items: center;
-    margin-bottom: 20px 1rem;
-}
-
-/* themed drinks table */
-table {
+#drink-content > #themed {
     background-color: white; 
     border: 3px solid #9a161c; 
     border-radius: 20px;
@@ -277,21 +265,34 @@ table {
     max-width: fit-content; 
     min-width: auto;
     padding: 20px 1rem;
-    
+    text-align: center;
+    margin-bottom: 50px;
+
 }
 
-th, td {
-    border:1px dashed #9a161c;
-    text-align: left;
-}
-
-caption {
-    font-size: 1.5rem;
+#themed > .themed-title {
+    font-size: 28px;
     text-align: center;
     text-transform: capitalize;
-    text-decoration: underline;
     padding: 15px 1rem;
-    color: #edf0f1;
+}
+
+#themed .drink-item {
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+#themed h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#themed h3 span {
+    text-align: right;
+    margin-left: 15px; 
 }
 
 /* listed drinks */
