@@ -383,6 +383,25 @@ main {
 
 }
 
+/* MEMED Video */
+#video-content {
+    text-align: center;
+    align-items: center;
+}
+
+#video-context > h2 {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.video {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+
+}
+
 /* Trading Times */
 
 #trading-times > h2 {
