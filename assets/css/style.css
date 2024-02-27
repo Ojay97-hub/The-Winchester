@@ -253,10 +253,16 @@ main {
 
 /* DRINK SECTION */ 
 
+#drink-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
 
 /* themed drinks */ 
 
-#drink-content > #themed {
+#themed {
     background-color: white; 
     border: 3px solid #9a161c; 
     border-radius: 20px;
@@ -297,26 +303,8 @@ main {
 
 /* listed drinks */
 
-.other-drinks {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-}
 
-.other-drinks ul {
-    flex: 1;
-    padding: 0;
-    margin: 0;
-}
-
-.other-drinks > h2 {
-    text-align: center;
-    padding: 15px 1rem;
-
-}
-
-.beer, .wine, b {
+.beer, .wine {
     margin-bottom: 10px;
 }
     
