@@ -451,7 +451,51 @@ caption {
 
 /* BOOKING FORM */
 
+.bookings > h1 {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+label {
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #9a161c;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+
+button {
+    background-color: #9a161c;
+    color: #edf0f1;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    margin-top: 15px;
+
+}
+
+button:hover {
+    background-color: rgb(71, 71, 144);
+}
 /* footer */ 
 
 footer {
