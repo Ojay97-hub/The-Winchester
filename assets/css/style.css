@@ -481,6 +481,8 @@ input {
 
 }
 
+/* form button */ 
+
 button {
     background-color: #9a161c;
     color: #edf0f1;
@@ -493,9 +495,13 @@ button {
 
 }
 
+/* same background color as in the nav */
+
 button:hover {
     background-color: rgb(71, 71, 144);
 }
+
+
 /* footer */ 
 
 footer {
