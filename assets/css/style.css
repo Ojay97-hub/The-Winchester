@@ -350,9 +350,10 @@ main {
 
 }
 
-#about > h1 {
-    font-size: 36px; 
+.back-story > h1 {
     text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
 
 }
 
@@ -360,10 +361,18 @@ main {
     margin: 0;
     padding: 0;
     line-height: 1.5;
-    text-decoration: wavy;
+   
+}
+
+#about.back-story {
+    margin-bottom: 20px;
 }
 
 /* embedded map */ 
+
+#location {
+    margin-top: 20px;
+}
 #location iframe {
     width: 100%;
     max-width: 100%;
@@ -376,14 +385,16 @@ main {
 
 /* Trading Times */
 
-#trading-times, h2 {
+#trading-times > h2 {
     text-align: center;
+    align-items: center;
+    margin-top: 20px;
     margin-bottom: 20px;
+    padding-right: 20px;
 }
 
 #trading-times {
     max-width: 100%;
-    /* allows for scroll on small screens */
     overflow-x: auto;
     display: flex;
     flex-wrap: wrap;
@@ -407,6 +418,39 @@ caption {
     font-weight: bold;
     margin-bottom: 10px;
 }
+
+/* CONTACT */
+
+#contact {
+    font-family: "Azeret Mono", monospace;
+    text-align: left;
+    background-color: rgba(42, 0, 2, 0.587);
+    color: #edf0f1;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 64px 1rem;
+    max-width: 100%;
+
+}
+
+.details > h1 {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.details > p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    /* so the words wrap and content doesn't extend beyond container */
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+
+/* BOOKING FORM */
+
 
 /* footer */ 
 
