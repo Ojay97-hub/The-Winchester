@@ -560,7 +560,14 @@ i {
 
 /* for tablet size - 768px */
 @media screen and (min-width: 768px) {
-    /* Header */ 
+    /* Header */
+    
+    #logo {
+        font-size: 120%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
     nav {
         display: block;
         position: relative; 
@@ -582,7 +589,6 @@ i {
     .nav_links {
         display: flex;
         /* the nav links overfill so had to put flex-wrap: wrap */
-        flex-wrap: wrap;
         max-width: fit-content;
         
     }
@@ -597,11 +603,7 @@ i {
         display: none;
     }
 
-    #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
+
 
     /* hero - love running */ 
     #cover-text {
