@@ -127,7 +127,7 @@ main {
     position: relative;
 }
 
-#cover-text, .motto {
+#cover-text {
     /* following love running but tailored to my color scheme */
     font-family: "Azeret Mono", monospace;
     font-weight: bold;
@@ -562,6 +562,7 @@ i {
 @media screen and (min-width: 768px) {
     /* Header */
     
+    /* changed the size of logo to fit the navbar more nicely */
     #logo {
         font-size: 120%;
         line-height: 75px;
@@ -610,7 +611,61 @@ i {
         width: 300px;
         right: 50px;
     }
+
+    /* MENU */
+     #burgers {
+        /* margin-bottom: 20px; */
+        margin-right: 20px;
+
+    }
+    
+    .sides {
+        /* added margin-bottom to match the burgers*/
+        margin-bottom: 20px;
+    }
+
+    #drink-content {
+        /* added row-reverse to may to invert the burgers and themed drinks */ 
+        flex-direction: row-reverse;
+    }
+
+    .soft-drinks, .wine {
+        margin-bottom: 20px;
+    }
+
+    /* ABOUT */
+    #about {
+        justify-content: space-evenly;
+    }
+
+    #location {
+        /* making the map fill the width */
+        width: 100%;
+    }
+
+    /* video */
+    /* increase size of video */
+    iframe.video {
+        width: 80%;
+        height: 30vh;
+    }
+
+    /* aligning the items to center */
+    div#video-context {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    .details > p {
+        text-align: center;
+    }
 }
+
+
+
 
 
 /* for desktop size - 1200px */
