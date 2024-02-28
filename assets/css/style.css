@@ -197,7 +197,7 @@ main {
     color: black; 
     font-size: 80%; 
     max-width: fit-content; 
-    min-width: auto;
+   /* min-width: auto; */
     padding: 20px 1rem;
 
 }
@@ -221,7 +221,7 @@ main {
     color: black; 
     font-size: 80%; 
     max-width: fit-content; 
-    min-width: auto;
+   /* min-width: auto; */
     padding: 20px 1rem;
     text-align: center;
 
@@ -271,7 +271,7 @@ main {
     color: black; 
     font-size: 80%; 
     max-width: fit-content; 
-    min-width: auto;
+   /* min-width: auto; */
     padding: 20px 1rem;
     text-align: center;
     margin-bottom: 50px;
@@ -317,7 +317,7 @@ main {
     color: black; 
     font-size: 80%; 
     max-width: fit-content; 
-    min-width: auto;
+   /* min-width: auto; */
     padding: 20px 1rem;
     text-align: center;
 
@@ -371,7 +371,11 @@ main {
 /* embedded map */ 
 
 #location {
-    margin-top: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
 }
 #location iframe {
     width: 100%;
@@ -389,18 +393,14 @@ main {
     align-items: center;
 }
 
-#video-context > h2 {
+#video-context > h2, .video {
+    display: flex;
     text-align: center;
     align-items: center;
     margin-bottom: 20px;
+    max-width: 100%;
 }
 
-.video {
-    margin: 0 auto;
-    display: block;
-    margin-bottom: 20px;
-
-}
 
 /* Trading Times */
 
