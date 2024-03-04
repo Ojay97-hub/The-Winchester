@@ -1,16 +1,13 @@
 /* google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 /* To override default styling by browser*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
-
 }
-
 
 /* body */
 body {
@@ -18,9 +15,7 @@ body {
     min-height: 100vh;
     background-color: white;
 
-
 }
-
 
 /* Header */
 header {
@@ -35,10 +30,7 @@ header {
     justify-content: space-between;
     align-items: baseline;
 
-
 }
-
-
 
 
 #logo {
@@ -48,8 +40,6 @@ header {
     text-decoration: underline;
     text-align: center;
 }
-
-
 
 
 /* navbar (skillthrive - 3 different types of nav) */
@@ -64,10 +54,7 @@ nav {
     box-shadow: 0 2px 2px grey;
     top: 100%;
 
-
 }
-
-
 
 
 li,
@@ -80,18 +67,14 @@ a {
     text-transform: uppercase;
     padding: 5px 5px;
 
-
 }
-
 
 .nav_links {
     font-size: 110%;
     list-style-type: none;
     letter-spacing: 4px;
 
-
 }
-
 
 .nav_links>li {
     margin-bottom: 1em;
@@ -101,45 +84,33 @@ a {
 }
 
 
-
-
 a.active:hover {
     background: rgb(71, 71, 144);
     border-bottom: 2px solid black;
     padding: 5px;
     border-radius: 20px;
 
-
 }
-
-
 
 
 /* nav toggle - love running */
 #nav-toggle:checked~nav {
     display: block;
 
-
 }
-
 
 #nav-toggle {
     display: none;
 }
 
-
 .nav-toggle-label {
     font-size: 1.5rem;
     color: #edf0f1;
 
-
 }
 
 
-
-
 /* main */
-
 
 main {
     flex: 1 0 auto;
@@ -147,13 +118,9 @@ main {
     width: 100%;
 
 
-
-
 }
 
-
 /* main > hero - googled optimised web images */
-
 
 #hero {
     height: 600px;
@@ -161,7 +128,6 @@ main {
     background: url(../images/pexels-erik-mclean-5662826\ \(1\).jpg) no-repeat center center/cover;
     position: relative;
 }
-
 
 #cover-text {
     /* following love running but tailored to my color scheme */
@@ -178,12 +144,9 @@ main {
     padding-top: 20px;
     padding-left: 10px;
 
-
 }
 
-
 /* main > menu */
-
 
 #menu {
     font-family: "Azeret Mono", monospace;
@@ -196,10 +159,7 @@ main {
     border: 2px solid black;
     padding: 64px 1rem;
 
-
 }
-
-
 
 
 .menu-title,
@@ -209,9 +169,7 @@ main {
     text-align: center;
     padding: 20px 1rem;
 
-
 }
-
 
 #menu-content {
     display: flex;
@@ -219,18 +177,14 @@ main {
     justify-content: space-evenly;
 }
 
-
 #menu>h1 {
     text-decoration: underline;
     text-transform: capitalize;
 }
 
-
 /* FOOD SECTION */
 
-
 /* burgers */
-
 
 #burgers>.burger-title {
     font-size: 28px;
@@ -238,9 +192,7 @@ main {
     text-transform: capitalize;
     padding: 15px 1rem;
 
-
 }
-
 
 #burgers {
     background-color: white;
@@ -253,25 +205,19 @@ main {
     padding: 20px 1rem;
     margin-bottom: 20px;
 
-
 }
-
 
 #burgers,
 .sides {
     flex: 1;
 
-
 }
-
 
 .burger-item {
     margin-bottom: 20px;
     padding: 10px;
 
-
 }
-
 
 /* sides */
 .sides {
@@ -285,9 +231,7 @@ main {
     padding: 20px 1rem;
     text-align: center;
 
-
 }
-
 
 .sides h2 {
     font-size: 28px;
@@ -295,16 +239,13 @@ main {
     text-transform: capitalize;
     padding: 15px 1rem;
 
-
 }
-
 
 .sides li {
     color: black;
     list-style: none;
     margin: 20px;
 }
-
 
 /* Moving the spans to the right! */
 .burger-item h2,
@@ -315,7 +256,6 @@ main {
     align-items: center;
 }
 
-
 .burger-item h2 span,
 .sides h2 span,
 .drink-item h3 span {
@@ -323,21 +263,16 @@ main {
     margin-left: 15px;
 }
 
-
 /* DRINK SECTION */
-
 
 #drink-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 
-
 }
 
-
 /* themed drinks */
-
 
 #themed {
     background-color: white;
@@ -351,9 +286,7 @@ main {
     text-align: center;
     margin-bottom: 20px;
 
-
 }
-
 
 #themed>.themed-title {
     font-size: 28px;
@@ -362,40 +295,31 @@ main {
     padding: 15px 1rem;
 }
 
-
 #themed .drink-item {
     margin-bottom: 20px;
     padding: 10px;
 
-
 }
-
 
 #themed h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-
 }
-
 
 #themed h3 span {
     text-align: right;
     margin-left: 15px;
 }
 
-
 /* listed drinks */
-
-
 
 
 .beer,
 .wine {
     margin-bottom: 20px;
 }
-
 
 .beer,
 .wine,
@@ -410,9 +334,7 @@ main {
     padding: 20px 1rem;
     text-align: center;
 
-
 }
-
 
 .beer li,
 .wine li,
@@ -421,11 +343,6 @@ main {
     list-style: none;
     margin: 20px;
 }
-
-
-
-
-
 
 
 
@@ -440,9 +357,7 @@ main {
     padding: 64px 1rem;
     max-width: 100%;
 
-
 }
-
 
 #about {
     display: flex;
@@ -450,35 +365,27 @@ main {
     justify-content: space-between;
     align-items: center;
 
-
 }
-
 
 .back-story>h1 {
     text-align: center;
     align-items: center;
     margin-bottom: 20px;
 
-
 }
-
 
 #about>p {
     margin: 0;
     padding: 0;
     line-height: 1.5;
 
-
 }
-
 
 #about.back-story {
     margin-bottom: 20px;
 }
 
-
 /* embedded map */
-
 
 #location {
     margin: 20px;
@@ -486,9 +393,7 @@ main {
     align-items: center;
     flex-direction: column;
 
-
 }
-
 
 #location iframe {
     width: 100%;
@@ -498,16 +403,13 @@ main {
     border-radius: 10px;
     margin-top: 15px;
 
-
 }
-
 
 /* MEMED Video */
 #video-content {
     text-align: center;
     align-items: center;
 }
-
 
 #video-context>h2,
 .video {
@@ -519,10 +421,7 @@ main {
 }
 
 
-
-
 /* Trading Times */
-
 
 #trading-times>h2 {
     text-align: center;
@@ -532,7 +431,6 @@ main {
     padding-right: 20px;
 }
 
-
 #trading-times {
     max-width: 100%;
     overflow-x: auto;
@@ -541,12 +439,10 @@ main {
     flex-direction: column;
 }
 
-
 table {
     width: 100%;
     margin-bottom: 20px;
 }
-
 
 th,
 td {
@@ -554,9 +450,7 @@ td {
     text-align: left;
     border-bottom: 1px solid black;
 
-
 }
-
 
 caption {
     text-align: left;
@@ -564,9 +458,7 @@ caption {
     margin-bottom: 10px;
 }
 
-
 /* CONTACT */
-
 
 #contact {
     font-family: "Azeret Mono", monospace;
@@ -578,16 +470,13 @@ caption {
     padding: 64px 1rem;
     max-width: 100%;
 
-
 }
-
 
 .details>h1 {
     text-align: center;
     align-items: center;
     margin-bottom: 20px;
 }
-
 
 .details>p {
     margin: 0;
@@ -599,10 +488,7 @@ caption {
 }
 
 
-
-
 /* BOOKING FORM */
-
 
 .bookings>h1 {
     text-align: center;
@@ -611,23 +497,18 @@ caption {
     margin-top: 20px;
 }
 
-
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
 
-
 }
-
 
 label {
     font-size: 18px;
     margin-top: 10px;
 
-
 }
-
 
 input {
     width: 100%;
@@ -637,12 +518,9 @@ input {
     border-radius: 10px;
     box-sizing: border-box;
 
-
 }
 
-
 /* form button */
-
 
 button {
     background-color: #9a161c;
@@ -654,22 +532,16 @@ button {
     cursor: pointer;
     margin-top: 15px;
 
-
 }
 
-
 /* same background color as in the nav */
-
 
 button:hover {
     background-color: rgb(71, 71, 144);
 }
 
 
-
-
 /* footer */
-
 
 footer {
     background-color: #9a161c;
@@ -680,12 +552,9 @@ footer {
     position: fixed;
     width: 100%;
 
-
 }
 
-
 /* footer socials */
-
 
 footer>ul {
     display: flex;
@@ -693,9 +562,7 @@ footer>ul {
     align-items: center;
     list-style: none;
 
-
 }
-
 
 i {
     font-size: 160%;
@@ -703,17 +570,13 @@ i {
     color: #edf0f1;
 }
 
-
 /* media queries */
 
-
 /* taken from love running */
-
 
 /* for tablet size - 768px */
 @media screen and (min-width: 768px) {
     /* Header */
-
 
     /* changed the size of logo to fit the navbar more nicely */
     #logo {
@@ -721,7 +584,6 @@ i {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-
 
     nav {
         display: block;
@@ -731,7 +593,6 @@ i {
         padding-right: 1rem;
     }
 
-
     #nav-toggle:checked~nav {
         display: flex;
         flex-direction: column;
@@ -740,32 +601,23 @@ i {
         top: 4%;
         left: 0;
 
-
     }
-
 
     .nav_links {
         display: flex;
         max-width: fit-content;
 
-
     }
-
 
     .nav_links>li {
         padding-left: 1rem;
         margin-bottom: 1em;
 
-
     }
-
 
     .nav-toggle-label {
         display: none;
     }
-
-
-
 
 
 
@@ -775,45 +627,37 @@ i {
         right: 50px;
     }
 
-
     /* MENU */
     #burgers {
         /* margin-bottom: 20px; */
         margin-right: 20px;
 
-
     }
-
 
     .sides {
         /* added margin-bottom to match the burgers*/
         margin-bottom: 20px;
     }
 
-
     #drink-content {
         /* added row-reverse to may to invert the burgers and themed drinks */
         flex-direction: row-reverse;
     }
-
 
     .soft-drinks,
     .wine {
         margin-bottom: 20px;
     }
 
-
     /* ABOUT */
     #about {
         justify-content: space-evenly;
     }
 
-
     #location {
         /* making the map fill the width */
         width: 100%;
     }
-
 
     /* video */
     /* increase size of video */
@@ -824,7 +668,6 @@ i {
         border-radius: 10px;
     }
 
-
     /* aligning the items to center */
     div#video-context {
         display: flex;
@@ -834,11 +677,9 @@ i {
         flex-direction: column;
     }
 
-
     .details>p {
         text-align: center;
     }
-
 
     /* FORM */
     form {
@@ -850,17 +691,13 @@ i {
 }
 
 
-
-
 /* for desktop size - 1200px */
-
 
 @media screen and (min-width: 1200px) {
     /* Hero */
     #hero {
-        height: 75vh;
+        height: 75vh; 
     }
-
 
     /* Drink Menu */
     #drink-content {
@@ -868,15 +705,13 @@ i {
         display: flex;
         justify-content: space-evenly;
         flex-wrap: nowrap;
-       
+        
     }
-
 
     #themed, .beer, .wine, .soft-drinks {
-        /* give some spacing between the divs */
+        /* give some spacing between the divs */ 
         margin: 0 5px;
     }
-
 
     /* FORM */
     form {
@@ -885,6 +720,5 @@ i {
         max-width: 80%;
         left: 10%;
     }
-
 
 }
