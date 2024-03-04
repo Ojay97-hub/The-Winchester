@@ -62,7 +62,7 @@ a {
     font-family: "Azeret Mono", monospace;
     font-weight: 500;
     font-size: 18px;
-    color: #edf0f1;
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
     padding: 5px 5px;
@@ -105,7 +105,7 @@ a.active:hover {
 
 .nav-toggle-label {
     font-size: 1.5rem;
-    color: #edf0f1;
+    color: white;
 
 }
 
@@ -136,7 +136,7 @@ main {
     font-size: 130%;
     text-align: center;
     background-color: rgba(154, 22, 29, 0.511);
-    color: #edf0f1;
+    color: white;
     position: absolute;
     bottom: 30px;
     width: 80%;
@@ -152,7 +152,7 @@ main {
     font-family: "Azeret Mono", monospace;
     text-align: left;
     background-color: rgba(42, 0, 2, 0.587);
-    color: #edf0f1;
+    color: white;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
@@ -351,7 +351,7 @@ main {
     font-family: "Azeret Mono", monospace;
     text-align: left;
     background-color: rgba(42, 0, 2, 0.587);
-    color: #edf0f1;
+    color: white;
     box-sizing: border-box;
     border: 2px solid black;
     padding: 64px 1rem;
@@ -464,7 +464,7 @@ caption {
     font-family: "Azeret Mono", monospace;
     text-align: left;
     background-color: rgba(42, 0, 2, 0.587);
-    color: #edf0f1;
+    color: white;
     box-sizing: border-box;
     border: 2px solid black;
     padding: 64px 1rem;
@@ -524,7 +524,7 @@ input {
 
 button {
     background-color: #9a161c;
-    color: #edf0f1;
+    color: white;
     padding: 10px 20px;
     font-size: 18px;
     border: none;
@@ -545,7 +545,7 @@ button:hover {
 
 footer {
     background-color: #9a161c;
-    color: #edf0f1;
+    color: white;
     text-align: center;
     border: 2px solid black;
     bottom: 0%;
@@ -567,7 +567,7 @@ footer>ul {
 i {
     font-size: 160%;
     padding: 5%;
-    color: #edf0f1;
+    color: white;
 }
 
 /* media queries */
