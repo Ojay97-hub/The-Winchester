@@ -129,21 +129,21 @@ main {
     position: relative;
 }
 
-#cover-text {
-    /* following love running but tailored to my color scheme */
-    font-family: "Azeret Mono", monospace;
-    font-weight: bold;
-    font-size: 130%;
-    text-align: center;
-    background-color: rgba(154, 22, 29, 0.511);
-    color: white;
-    position: absolute;
-    bottom: 30px;
-    width: 80%;
-    min-height: 200px;
-    padding-top: 20px;
-    padding-left: 10px;
 
+
+/* adding a pub logo  */ 
+#pub-logo {
+    position: sticky;
+    display: flex; 
+    justify-content: center; 
+    align-items:center center; 
+    top: 25%;
+}
+
+#pub-logo img {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
 }
 
 /* main > menu */
