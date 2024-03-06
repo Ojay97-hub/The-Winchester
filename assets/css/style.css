@@ -365,8 +365,10 @@ main {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
+
+
+/* you can add column counts for gallery */ 
 
 /* ABOUT */
 #about {
