@@ -346,7 +346,27 @@ main {
     margin: 20px;
 }
 
+/* Gallery section - will compact all sections to rid of redundancy */ 
+#gallery {
+    font-family: "Azeret Mono", monospace;
+    text-align: left;
+    background-color: rgba(42, 0, 2, 0.587);
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 64px 1rem;
+    max-width: 100%;
+}
 
+/* formatting of space */ 
+#gallery {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
 
 /* ABOUT */
 #about {
@@ -576,6 +596,7 @@ i {
 /* 5 star review tripadvisor */ 
 #five-stars {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -584,6 +605,7 @@ i {
 #five-stars>img {
     border-radius: 15px;
     max-width: 30%;
+    max-height: 30%;
     padding: 10px;
     margin: 0 10px;
 
@@ -638,13 +660,6 @@ i {
         display: none;
     }
 
-
-
-    /* hero - love running */
-    #cover-text {
-        width: 300px;
-        right: 50px;
-    }
 
     /* MENU */
     #burgers {
@@ -707,6 +722,13 @@ i {
         max-width: 80%;
         left: 10%;
     }
+
+    #five-stars>img {
+        max-width: 15%;
+        max-height: 15%;
+    }
+
+
 }
 
 
