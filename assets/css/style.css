@@ -143,8 +143,8 @@ main {
 }
 
 #pub-logo img {
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     margin: 0 auto;
 }
 
@@ -533,6 +533,7 @@ button {
     border-radius: 10px;
     cursor: pointer;
     margin-top: 15px;
+    margin-bottom: 30px; 
 
 }
 
@@ -570,6 +571,22 @@ i {
     font-size: 160%;
     padding: 5%;
     color: white;
+}
+
+/* 5 star review tripadvisor */ 
+#five-stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#five-stars>img {
+    border-radius: 15px;
+    max-width: 30%;
+    padding: 10px;
+    margin: 0 10px;
+
 }
 
 /* media queries */
