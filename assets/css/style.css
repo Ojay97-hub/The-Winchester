@@ -135,9 +135,11 @@ main {
 #pub-logo {
     position: sticky;
     display: flex; 
+    /* centering the logo */ 
     justify-content: center; 
-    align-items:center center; 
-    top: 25%;
+    align-items: center; 
+    top: 50%;
+    left: 50%;
 }
 
 #pub-logo img {
