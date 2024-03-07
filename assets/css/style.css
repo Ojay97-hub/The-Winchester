@@ -409,15 +409,29 @@ main {
 
 
 /* formatting of space */
-/*  
-#gallery  {
+
+.gallery {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    columns: 2;
 }
-*/
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px; 
+    border: 2px solid #9a161c;
+    border-radius: 20px;
+    box-shadow: #9a161c;
+    
+}
+
+.gallery img:hover {
+    background-color: rgb(71, 71, 144);
+}
 
 /* you can add column counts for gallery */
 
@@ -440,7 +454,7 @@ main {
 #about {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
 
@@ -589,10 +603,8 @@ caption {
     /* so the words wrap and content doesn't extend beyond container */
     max-width: 100%;
     word-wrap: break-word;
+    text-align: center;
 }
-
-
-
 
 /* BOOKING FORM */
 
@@ -617,7 +629,6 @@ form {
 label {
     font-size: 18px;
     margin-top: 10px;
-
 
 }
 
@@ -658,8 +669,6 @@ button {
 button:hover {
     background-color: rgb(71, 71, 144);
 }
-
-
 
 
 /* footer */
