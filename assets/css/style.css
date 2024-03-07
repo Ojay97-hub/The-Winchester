@@ -306,7 +306,6 @@ main {
     flex-wrap: wrap;
     justify-content: space-evenly;
 
-
 }
 
 
@@ -408,24 +407,21 @@ main {
 }
 
 
-/* formatting of space */
-
 .gallery {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    columns: 2;
 }
 
+/* media queries 1200px set width to 600px  */
 .gallery img {
     max-width: 100%;
     height: auto;
     margin: 10px; 
     border: 2px solid #9a161c;
     border-radius: 20px;
-    box-shadow: #9a161c;
     
 }
 
@@ -439,7 +435,7 @@ main {
 /* ABOUT */
 #about {
     font-family: "Azeret Mono", monospace;
-    text-align: left;
+    text-align: center;
     background-color: rgba(42, 0, 2, 0.587);
     color: white;
     box-sizing: border-box;
@@ -513,6 +509,7 @@ main {
 #video-content {
     text-align: center;
     align-items: center;
+
 }
 
 
@@ -520,12 +517,10 @@ main {
 .video {
     display: flex;
     text-align: center;
-    align-items: center;
+    align-items: center;  
     margin-bottom: 20px;
     max-width: 100%;
 }
-
-
 
 
 /* Trading Times */
