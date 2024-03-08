@@ -51,7 +51,6 @@ nav {
     background-color: #9a161c;
     width: 100%;
     left: 0;
-    padding: 0 1rem;
     display: none;
     box-shadow: 0 2px 2px grey;
     top: 100%;
@@ -159,6 +158,7 @@ main {
     width: 150px;
     height: 150px;
     margin: 0 auto;
+    border-radius: 5px;
 }
 
 
@@ -361,6 +361,11 @@ main {
 
 /* listed drinks */
 
+.side-drinks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .beer,
 .wine {
@@ -376,11 +381,11 @@ main {
     border-radius: 20px;
     color: black;
     font-size: 80%;
-    max-width: fit-content;
-    /* min-width: auto; */
+    max-width: 100%;
     padding: 20px 1rem;
     text-align: center;
-
+    /* make same width */
+    flex: 1;
 
 }
 
@@ -393,43 +398,6 @@ main {
     margin: 20px;
 }
 
-
-/* Gallery section - will compact all sections to rid of redundancy */
-#gallery {
-    font-family: "Azeret Mono", monospace;
-    text-align: center;
-    background-color: rgba(42, 0, 2, 0.587);
-    color: white;
-    box-sizing: border-box;
-    border: 2px solid black;
-    padding: 64px 1rem;
-    max-width: 100%;
-}
-
-
-.gallery {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-/* media queries 1200px set width to 600px  */
-.gallery img {
-    max-width: 100%;
-    height: auto;
-    margin: 10px; 
-    border: 2px solid #9a161c;
-    border-radius: 20px;
-    
-}
-
-.gallery img:hover {
-    background-color: rgb(71, 71, 144);
-}
-
-/* you can add column counts for gallery */
 
 
 /* ABOUT */
@@ -507,17 +475,16 @@ main {
 
 /* MEMED Video */
 #video-content {
+    display: flex;
     text-align: center;
-    align-items: center;
-
+    align-items: center;  
+    justify-content: center;
+    flex-direction: column;
 }
 
 
 #video-context>h2,
 .video {
-    display: flex;
-    text-align: center;
-    align-items: center;  
     margin-bottom: 20px;
     max-width: 100%;
 }
@@ -559,16 +526,49 @@ td {
 
 }
 
-
 caption {
     text-align: left;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
+/* Gallery section - will compact all sections to rid of redundancy */
+#gallery {
+    font-family: "Azeret Mono", monospace;
+    text-align: center;
+    background-color: rgba(42, 0, 2, 0.587);
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 64px 1rem;
+    max-width: 100%;
+}
+
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* media queries 1200px set width to 600px  */
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0; 
+    border: 2px solid #9a161c;
+    border-radius: 20px;
+    
+}
+
+.gallery img:hover {
+    background-color: rgb(71, 71, 144);
+}
+
 
 /* CONTACT */
-
 
 #contact {
     font-family: "Azeret Mono", monospace;
@@ -703,6 +703,8 @@ i {
 
 
 /* 5 star review tripadvisor - MIGHT GET RID OF */
+
+/*  
 #five-stars {
     display: flex;
     flex-wrap: wrap;
@@ -721,13 +723,9 @@ i {
 
 
 }
-
+*/ 
 
 /* media queries */
-
-
-/* taken from love running */
-
 
 /* for tablet size - 768px */
 @media screen and (min-width: 768px) {
@@ -747,7 +745,7 @@ i {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem;
+    
     }
 
 
@@ -784,8 +782,6 @@ i {
     }
 
 
-
-
     /* MENU */
     #burgers {
         /* margin-bottom: 20px; */
@@ -794,18 +790,23 @@ i {
 
     }
 
-
     .sides {
         /* added margin-bottom to match the burgers*/
         margin-bottom: 20px;
     }
 
 
-    #drink-content {
-        /* added row-reverse to may to invert the burgers and themed drinks */
-        flex-direction: row-reverse;
+    #drink-content, 
+    .side-drinks {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: 5px; 
     }
 
+    .side-drinks > div {
+        margin: 5px; 
+    }
 
     .soft-drinks,
     .wine {
