@@ -58,6 +58,9 @@ nav {
 
 }
 
+nav .active {
+    max-width: fit-content;
+}
 
 li,
 a {
@@ -69,6 +72,7 @@ a {
     text-transform: uppercase;
     /* experiencing bug with navbar overflow and toggle not displaying at 768px */
     padding: 5px;
+
 
 
 }
@@ -597,6 +601,12 @@ caption {
 
 }
 
+#contact a {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 500;
+    font-size: 18px;
+}
+
 .details>h2 {
     text-align: center;
     align-items: center;
@@ -691,7 +701,7 @@ button:hover {
     max-width: 250px;
     max-height: 30%;
     padding: 10px;
-    margin: 20px;
+    margin-bottom: 20px;
 
 }
 
