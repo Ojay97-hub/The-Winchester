@@ -67,7 +67,8 @@ a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 5px 5px;
+    /* experiencing bug with navbar overflow and toggle not displaying at 768px */
+    padding: 5px;
 
 
 }
@@ -111,7 +112,7 @@ a.active:hover {
 
 
 .nav-toggle-label {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: white;
 
 
@@ -670,8 +671,8 @@ footer>ul {
 }
 
 
-i {
-    font-size: 160%;
+footer i {
+    font-size: 200%;
     padding: 5%;
     color: white;
 }
@@ -691,7 +692,7 @@ i {
 
 #five-stars>img {
     border-radius: 15px;
-    max-width: 30%;
+    max-width: 250px;
     max-height: 30%;
     padding: 10px;
     margin: 0 10px;
@@ -837,14 +838,24 @@ i {
 
 @media screen and (min-width: 1200px) {
 
+    /* FONT SIZE  */ 
+
+    #logo {
+        font-size: 150%;
+    }
+
+    p, li, a {
+        font-size: larger;
+    }
+
     /* Hero */
     #hero {
         height: 75vh;
     }
 
     #pub-logo img {
-        width: 15%;
-        height: 15%;
+        width: 10%;
+        height: 10%;
     }
 
 
