@@ -189,6 +189,9 @@ main {
 
 }
 
+.menu-title {
+    font-size: 48px;
+}
 
 #menu-content {
     display: flex;
@@ -260,7 +263,7 @@ main {
 
 }
 
-.sides h2 {
+.sides h3 {
     font-size: 28px;
     text-align: center;
     text-transform: capitalize;
@@ -413,11 +416,24 @@ main {
 }
 
 
-.back-story>h1 {
+.back-story>h2 {
     text-align: center;
     align-items: center;
     margin-bottom: 20px;
 
+}
+
+.back-story {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 80%;
+}
+
+.info {
+    align-items: center;
+    text-align: center;
 }
 
 
@@ -451,7 +467,7 @@ main {
     height: 400px;
     border: 0;
     border-radius: 10px;
-    margin-top: 15px;
+    margin: 15px;
 
 }
 
@@ -491,6 +507,10 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    border: 2px solid #9a161c;
+    background: #1c1d21;
+    border-radius: 10px; 
+    padding: 20px; 
 }
 
 
@@ -566,7 +586,7 @@ caption {
 
 }
 
-.details>h1 {
+.details>h2 {
     text-align: center;
     align-items: center;
     margin-bottom: 20px;
@@ -586,7 +606,7 @@ caption {
 /* BOOKING FORM */
 
 
-.bookings>h1 {
+.bookings>h2 {
     text-align: center;
     align-items: center;
     margin-bottom: 20px;
