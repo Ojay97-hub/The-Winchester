@@ -547,6 +547,9 @@ caption {
     max-width: 100%;
 }
 
+#gallery > h2 {
+    margin-bottom: 20px;
+}
 
 .gallery {
     display: flex;
@@ -663,6 +666,27 @@ button:hover {
     background-color: rgb(71, 71, 144);
 }
 
+/* 5 star review tripadvisor - MIGHT GET RID OF */
+
+
+#five-stars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+#five-stars>img {
+    border-radius: 15px;
+    max-width: 250px;
+    max-height: 30%;
+    padding: 10px;
+    margin: 0 10px;
+
+
+}
 
 /* footer */
 
@@ -695,29 +719,6 @@ footer i {
     font-size: 200%;
     padding: 5%;
     color: white;
-}
-
-
-/* 5 star review tripadvisor - MIGHT GET RID OF */
-
-
-#five-stars {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-
-#five-stars>img {
-    border-radius: 15px;
-    max-width: 250px;
-    max-height: 30%;
-    padding: 10px;
-    margin: 0 10px;
-
-
 }
 
 
@@ -931,3 +932,12 @@ footer i {
 
 
 }
+
+/* Even bigger screens */ 
+@media screen and (min-width: 2150px) {
+    .gallery {
+      max-width: 80%;
+      margin: 10px 300px;
+        }  
+  
+      }
