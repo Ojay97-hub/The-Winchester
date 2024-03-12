@@ -4,6 +4,7 @@ The Winchester is a website that brings together fans of the movie "Shaun of the
 
 ## SCREENSHOTS 
 
+
 ## USER EXPERIENCE | UX 
 
 ### USER STORIES 
@@ -57,11 +58,17 @@ The Winchester is a website that brings together fans of the movie "Shaun of the
 
 ## FEATURES 
 
+
+
 ## TESTING 
+
+
 
 ## BUGS 
 
 ## ACCESSIBILITY
+
+
 
 ## DEPLOYMENT 
 

@@ -468,7 +468,7 @@ main {
 
 
 #location iframe {
-    max-width: 100%;
+    width: 80%; 
     height: 400px;
     border-radius: 10px;
     margin: 15px;
