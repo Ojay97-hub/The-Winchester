@@ -644,7 +644,8 @@ form {
 
 
 label {
-    font-size: 18px;
+    /* so label fits within screen width and not overflow */
+    font-size: 14px;
     margin-top: 10px;
 
 }
@@ -882,8 +883,9 @@ footer i {
         font-size: 150%;
     }
 
+    /* reduce the screen fonts to large from larger */
     p, li, a {
-        font-size: larger;
+        font-size: large;
     }
 
     /* Hero */
