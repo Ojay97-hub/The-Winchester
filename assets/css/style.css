@@ -24,6 +24,9 @@ header {
     background-color: #9a161c;
     padding: 15px 1rem;
     position: sticky;
+    /* making sure the sticky position works */
+    top: 0;
+    left: 0;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px grey;
@@ -124,12 +127,10 @@ a.active:hover {
 
 /* main */
 
-
+/* changed main with no height */
 main {
     flex: 1 0 auto;
-    height: 100vh;
     width: 100%;
-
 
 }
 
@@ -142,6 +143,7 @@ main {
     width: 100%;
     background: url(../images/pexels-erik-mclean-5662826\ \(1\).jpg) no-repeat center center/cover;
     position: relative;
+    /* height: 100vh; */
 }
 
 
