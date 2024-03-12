@@ -1,502 +1,531 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Meta -->
-    <meta name="description" content="The website for the winchester pub">
-    <meta name="keywords" content="pub, food, drink, socialise, relax">
+    <meta name="description" content="The website for the winchester pub" />
+    <meta name="keywords" content="pub, food, drink, socialise, relax" />
 
     <!-- Title of Website-->
     <title>The Winchester</title>
 
     <!-- Linking Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <!-- Font Awesome Link -->
-    <script src="https://kit.fontawesome.com/e696cb5a12.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/e696cb5a12.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Favicon -->
 
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+  </head>
 
-</head>
-
-
-<body>
-
+  <body>
     <!-- Header Section -->
     <header>
+      <a href="index.html">
+        <h1 id="logo">The Winchester</h1>
+      </a>
 
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <i class="fa-solid fa-bars"></i>
+      </label>
 
-        <a href="index.html">
-            <h1 id="logo">The Winchester</h1>
-        </a>
-
-
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label">
-            <i class="fa-solid fa-bars"></i>
-        </label>
-
-        <nav>
-            <ul class="nav_links">
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a class="active" href="#menu">Menu</a></li>
-                <li><a class="active" href="#about">About</a></li>
-                <li><a class="active" href="#gallery">Gallery</a></li>
-                <li><a class="active" href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-
+      <nav>
+        <ul class="nav_links">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a class="active" href="#menu">Menu</a></li>
+          <li><a class="active" href="#about">About</a></li>
+          <li><a class="active" href="#gallery">Gallery</a></li>
+          <li><a class="active" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-
 
     <!-- Main Content -->
     <main>
-        <div id="hero">
+      <div id="hero">
+        <!-- Pub Logo -->
+        <div id="pub-logo">
+          <img src="assets/images/preview.jpeg" alt="The Winchester Logo" />
+        </div>
+      </div>
 
-            <!-- Pub Logo -->
-            <div id="pub-logo">
-                <img src="assets/images/preview.jpeg" alt="The Winchester Logo">
+      <!-- Menu Section - W3School -->
+
+      <section id="menu">
+        <div class="menu-title"><strong>OUR DEADLY MENU</strong></div>
+
+        <!-- Food -->
+        <h2 class="fm">FOOD</h2>
+
+        <div id="menu-content">
+          <!-- Burgers -->
+
+          <div id="burgers">
+            <h2 class="burger-title">OUR APOCALYPTIC BURGERS</h2>
+
+            <div class="burger-item">
+              <h2>
+                <b>Doubled Up Zombie Burger</b>
+                <span>£16.00</span>
+              </h2>
+              <hr />
+              <p>
+                From locally sourced produce (zombies)! We give you the bloody
+                and juicy double patty (not meant for the weak)!
+              </p>
             </div>
 
+            <div class="burger-item">
+              <h2>
+                <b>Hamstring Cheese Burger</b>
+                <span>£14.50</span>
+              </h2>
+              <hr />
+              <p>
+                This hammy cheeseburger will make you want to do some stretches!
+              </p>
+            </div>
+
+            <div class="burger-item">
+              <h2>
+                <b>Fish Finger Burger</b>
+                <span>£12.50</span>
+              </h2>
+              <hr />
+              <p>
+                Living on those survival rations presents you with a fish finger
+                burger!
+              </p>
+            </div>
+
+            <div class="burger-item">
+              <h2>
+                <b>Protective Plant Burger</b>
+                <span>£11.00</span>
+              </h2>
+              <hr />
+              <p>This plant burger is for those who desire the safer option!</p>
+            </div>
+          </div>
+
+          <!-- Sides -->
+          <div class="sides">
+            <h3>SIDES</h3>
+            <p>all £3.00</p>
+            <ul>
+              <li>Fries</li>
+              <li>Curly Fries</li>
+              <li>Sweet Potato Fries</li>
+              <li>Coleslaw</li>
+              <li>Salad</li>
+              <li>Baked Beans</li>
+              <li>Mac N' Cheese</li>
+            </ul>
+          </div>
         </div>
 
+        <!-- Drink -->
 
-        <!-- Menu Section - W3School -->
+        <h2 class="dm">DRINK</h2>
 
+        <div id="drink-content">
+          <!-- themed drink -->
 
-        <section id="menu">
+          <div class="key-drinks">
+            <div id="themed">
+              <h2 class="themed-title">OUR DISASTER DRINKS</h2>
 
-            <div class="menu-title"><strong>OUR DEADLY MENU</strong></div>
+              <div class="drink-item">
+                <h2>
+                  <b>Zombie Guts</b>
+                  <span>£9.50</span>
+                </h2>
+                <hr />
+                <p>A concoction of fruit juice, sweet liqeurs, and rum</p>
+              </div>
 
+              <div class="drink-item">
+                <h2>
+                  <b>Bloody Mary</b>
+                  <span>£7.50</span>
+                </h2>
+                <hr />
+                <p>Tomato juice with vodka and some secret spices</p>
+              </div>
 
-            <!-- Food -->
-            <h2 class="fm">FOOD</h2>
+              <div class="drink-item">
+                <h2>
+                  <b>The Antidote</b>
+                  <span>£8.50</span>
+                </h2>
+                <hr />
+                <p>Gin with greens</p>
+              </div>
 
-            <div id="menu-content">
+              <div class="drink-item">
+                <h2>
+                  <b>Envisioning Paradise</b>
+                  <span>£11.00</span>
+                </h2>
+                <hr />
+                <p>A tropical taste bud getaway to mask reality</p>
+              </div>
+            </div>
+          </div>
 
-                <!-- Burgers -->
+          <!-- Other alcoholic drinks - list  -->
 
-                <div id="burgers">
-                    <h2 class="burger-title">OUR APOCALYPTIC BURGERS</h2>
+          <div class="side-drinks">
+            <div class="beer">
+              <h2>TAP BEER</h2>
+              <p>pint - £4.50</p>
 
-
-                    <div class="burger-item">
-                        <h2>
-                            <b>Doubled Up Zombie Burger</b>
-                            <span>£16.00</span>
-                        </h2>
-                        <hr>
-                        <p>From locally sourced produce (zombies)! We give you the bloody and juicy double patty (not
-                            meant for the weak)!</p>
-                    </div>
-
-
-                    <div class="burger-item">
-                        <h2>
-                            <b>Hamstring Cheese Burger</b>
-                            <span>£14.50</span>
-                        </h2>
-                        <hr>
-                        <p>This hammy cheeseburger will make you want to do some stretches!</p>
-                    </div>
-
-
-                    <div class="burger-item">
-                        <h2>
-                            <b>Fish Finger Burger</b>
-                            <span>£12.50</span>
-                        </h2>
-                        <hr>
-                        <p>Living on those survival rations presents you with a fish finger burger!</p>
-                    </div>
-
-
-                    <div class="burger-item">
-                        <h2>
-                            <b>Protective Plant Burger</b>
-                            <span>£11.00</span>
-                        </h2>
-                        <hr>
-                        <p>This plant burger is for those who desire the safer option!</p>
-                    </div>
-
-
-                </div>
-
-
-                <!-- Sides -->
-                <div class="sides">
-
-
-                    <h3>
-                        SIDES
-                    </h3>
-                    <p>all £3.00</p>
-                    <ul>
-                        <li>Fries</li>
-                        <li>Curly Fries</li>
-                        <li>Sweet Potato Fries</li>
-                        <li>Coleslaw</li>
-                        <li>Salad</li>
-                        <li>Baked Beans</li>
-                        <li>Mac N' Cheese</li>
-                    </ul>
-
-
-                </div>
-
-
+              <ul>
+                <li>Carling</li>
+                <li>Fosters</li>
+                <li>Stella</li>
+                <li>Peroni</li>
+                <li>Guinness</li>
+              </ul>
             </div>
 
-
-            <!-- Drink -->
-
-            <h2 class="dm">DRINK</h2>
-
-
-            <div id="drink-content">
-
-                <!-- themed drink -->
-
-                <div class="key-drinks">
-
-                    <div id="themed">
-
-
-                        <h2 class="themed-title">OUR DISASTER DRINKS</h2>
-
-
-                        <div class="drink-item">
-                            <h2>
-                                <b>Zombie Guts</b>
-                                <span>£9.50</span>
-                            </h2>
-                            <hr>
-                            <p>A concoction of fruit juice, sweet liqeurs, and rum</p>
-                        </div>
-
-
-                        <div class="drink-item">
-                            <h2>
-                                <b>Bloody Mary</b>
-                                <span>£7.50</span>
-                            </h2>
-                            <hr>
-                            <p>Tomato juice with vodka and some secret spices</p>
-                        </div>
-
-
-                        <div class="drink-item">
-                            <h2>
-                                <b>The Antidote</b>
-                                <span>£8.50</span>
-                            </h2>
-                            <hr>
-                            <p>Gin with greens</p>
-                        </div>
-
-
-                        <div class="drink-item">
-                            <h2>
-                                <b>Envisioning Paradise</b>
-                                <span>£11.00</span>
-                            </h2>
-                            <hr>
-                            <p>A tropical taste bud getaway to mask reality</p>
-                        </div>
-
-
-                    </div>
-
-                </div>
-
-                <!-- Other alcoholic drinks - list  -->
-
-                <div class="side-drinks">
-                    <div class="beer">
-                        <h2>TAP BEER</h2>
-                        <p>pint - £4.50</p>
-
-
-                        <ul>
-                            <li>Carling</li>
-                            <li>Fosters</li>
-                            <li>Stella</li>
-                            <li>Peroni</li>
-                            <li>Guinness</li>
-                        </ul>
-
-
-                    </div>
-
-                    <div class="wine">
-                        <h2>WINE</h2>
-                        <p>By bottle or per glass</p>
-                        <ul>
-                            <li>Shiraz</li>
-                            <li>Pinot Noir</li>
-                            <li>Malbec</li>
-                            <li>Pinot Grigio</li>
-                            <li>Sav Blanc</li>
-                            <li>Chardonnay</li>
-                        </ul>
-                    </div>
-
-                    <!-- Soft Drinks - list -->
-                    <div class="soft-drinks">
-                        <h2>SOFT DRINKS</h2>
-                        <p>£2.50</p>
-
-
-                        <ul>
-                            <li>Coca Cola</li>
-                            <li>Diet Coke</li>
-                            <li>Fanta</li>
-                            <li>J20</li>
-                            <li>Soda Water</li>
-                            <li>Tonic Water</li>
-                            <li>Tap Water - (free)</li>
-                        </ul>
-                    </div>
-
-                </div>
-
+            <div class="wine">
+              <h2>WINE</h2>
+              <p>By bottle or per glass</p>
+              <ul>
+                <li>Shiraz</li>
+                <li>Pinot Noir</li>
+                <li>Malbec</li>
+                <li>Pinot Grigio</li>
+                <li>Sav Blanc</li>
+                <li>Chardonnay</li>
+              </ul>
             </div>
 
-        </section>
+            <!-- Soft Drinks - list -->
+            <div class="soft-drinks">
+              <h2>SOFT DRINKS</h2>
+              <p>£2.50</p>
 
-
-        <!-- about the winchester -->
-
-
-        <section id="about">
-            <div class="back-story">
-                <h2>ABOUT</h2>
-                <p>
-                    The Winchester is a pub well known from the cult classic movie, "Shaun of the Dead" which stars
-                    Simon
-                    Pegg and Nick Frost. Besides from carrying out business regularly, we often pay tribute to the movie
-                    by
-                    developing fun themed food and drink for fans who come from all over the world to become immersed
-                    into
-                    the universe of zombies and survival.
-                </p>
+              <ul>
+                <li>Coca Cola</li>
+                <li>Diet Coke</li>
+                <li>Fanta</li>
+                <li>J20</li>
+                <li>Soda Water</li>
+                <li>Tonic Water</li>
+                <li>Tap Water - (free)</li>
+              </ul>
             </div>
+          </div>
+        </div>
+      </section>
 
+      <!-- about the winchester -->
 
-            <div id="location">
-                <h2>LOCATION</h2>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.7025400586713!2d-0.1434979228709964!3d51.57368640585793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761bb4b471d1e5%3A0x252f80616d83ae56!2sThe%20Winchester!5e0!3m2!1sen!2suk!4v1709042354346!5m2!1sen!2suk"
-                    title="the location on google maps" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+      <section id="about">
+        <div class="back-story">
+          <h2>ABOUT</h2>
+          <p>
+            The Winchester is a pub well known from the cult classic movie,
+            "Shaun of the Dead" which stars Simon Pegg and Nick Frost. Besides
+            from carrying out business regularly, we often pay tribute to the
+            movie by developing fun themed food and drink for fans who come from
+            all over the world to become immersed into the universe of zombies
+            and survival.
+          </p>
+        </div>
 
+        <div id="location">
+          <h2>LOCATION</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.7025400586713!2d-0.1434979228709964!3d51.57368640585793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761bb4b471d1e5%3A0x252f80616d83ae56!2sThe%20Winchester!5e0!3m2!1sen!2suk!4v1709042354346!5m2!1sen!2suk"
+            title="the location on google maps"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
 
-                <p>206 Archway Rd, London N6 5BA</p>
-            </div>
+          <p>206 Archway Rd, London N6 5BA</p>
+        </div>
 
+        <!-- VIDEO -->
 
-            <!-- VIDEO -->
+        <div id="video-context">
+          <h2>The Memed Scene</h2>
+          <iframe
+            class="video"
+            src="https://www.youtube.com/embed/dpCe36t6oC4?si=JPJyHAh7YXYlGgcK&amp;start=127"
+            title="The Memed Scene"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          >
+          </iframe>
+          <p>
+            This is the famous scene from "Shaun of the Dead" that has made the
+            Winchester Pub world reknowned!
+          </p>
+        </div>
 
-            <div id="video-context">
-                <h2>The Memed Scene</h2>
-                <iframe class="video"
-                    src="https://www.youtube.com/embed/dpCe36t6oC4?si=JPJyHAh7YXYlGgcK&amp;start=127"
-                    title="The Memed Scene"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
-                </iframe>
-                <p>This is the famous scene from "Shaun of the Dead" that has made the Winchester Pub world reknowned!
-                </p>
-            </div>
+        <div id="trading-times">
+          <h2>TRADING TIMES</h2>
 
-            <div id="trading-times">
-                <h2>TRADING TIMES</h2>
+          <!-- Doors -->
+          <table>
+            <caption>
+              DOORS
+            </caption>
+            <thead>
+              <tr>
+                <!-- wave - remove empty table headers with td -->
+                <td></td>
+                <th>Mon - Fri</th>
+                <th>Sat - Sun</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Opening Times</td>
+                <td>7:00am - 23:00pm</td>
+                <td>9:00am - 23:00pm</td>
+              </tr>
+            </tbody>
+          </table>
 
+          <!-- KITCHEN -->
+          <table>
+            <caption>
+              KITCHEN
+            </caption>
+            <thead>
+              <tr>
+                <td></td>
+                <th>Mon - Fri</th>
+                <th>Sat - Sun</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Cooking Times</td>
+                <td>8:00am - 20:00pm</td>
+                <td>10:00am - 21:30pm</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-                <!-- Doors -->
-                <table>
-                    <caption>DOORS</caption>
-                    <thead>
-                        <tr>
-                            <!-- wave - remove empty table headers with td -->
-                            <td></td>
-                            <th>Mon - Fri</th>
-                            <th>Sat - Sun</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Opening Times</td>
-                            <td>7:00am - 23:00pm</td>
-                            <td>9:00am - 23:00pm</td>
-                        </tr>
-                    </tbody>
-                </table>
+      <!-- GALLERY ! -->
+      <section id="gallery">
+        <h2>GALLERY</h2>
+        <p>
+          Below are some pictures that our inhouse media team rustled up for
+          your eyes to feast on!
+        </p>
 
-                <!-- KITCHEN -->
-                <table>
-                    <caption>KITCHEN</caption>
-                    <thead>
-                        <tr>
-                            <td></td>
-                            <th>Mon - Fri</th>
-                            <th>Sat - Sun</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Cooking Times</td>
-                            <td>8:00am - 20:00pm</td>
-                            <td>10:00am - 21:30pm</td>
-                        </tr>
-                    </tbody>
-                </table>
+        <div class="gallery">
+          <!-- Food -->
+          <figure>
+            <img src="assets/images/double.jpeg.jpg" alt="double hamburger" />
+            <figcaption>Doubled Up Zombie Burger</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="assets/images/cheese.jpeg.jpg"
+              alt="an oozing cheeseburger"
+            />
+            <figcaption>Hamstring Cheese Burger</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="assets/images/fish.jpeg.jpg"
+              alt="a battered fish burger"
+            />
+            <figcaption>Fish Finger Burger</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="assets/images/plant.jpeg.jpg"
+              alt="a plant based burger"
+            />
+            <figcaption>Protective Plant Burger</figcaption>
+          </figure>
 
-            </div>
+          <!-- Drinks -->
+          <figure>
+            <img
+              src="assets/images/zombie.jpeg.jpg"
+              alt="a zombie cocktail with mint and rum"
+            />
+            <figcaption>Zombie Guts</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/images/bloodymary.jpeg.jpg" alt="a bloody mary" />
+            <figcaption>Bloody Mary</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="assets/images/ginwithgreens.jpeg.jpg"
+              alt="gin n tonic with cucumber and basil"
+            />
+            <figcaption>The Antidote</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="assets/images/paradise.jpeg.jpg"
+              alt="a tropical strawberry cocktail with lime and mint"
+            />
+            <figcaption>Invisioning Paradise</figcaption>
+          </figure>
+        </div>
+      </section>
 
+      <!-- CONTACT  -->
 
-        </section>
+      <section id="contact">
+        <div class="details">
+          <h2>CONTACT</h2>
+          <p>
+            You can contact us via<br />
+            <strong>Phone:</strong> +44 12345678911
+            <br />
+            <!-- added a pop up link with a subject -->
+            <strong>Email:</strong
+            ><a
+              href="mailto:thewinchester@outlook.fake?subject=Make_a_Reservation"
+              >thewinchester@outlook.fake</a
+            >
+          </p>
+        </div>
 
+        <!-- BOOKING FORM -->
 
-        <!-- GALLERY ! -->
-        <section id="gallery">
+        <div class="bookings">
+          <h2>RESERVE A SPOT</h2>
 
-            <h2>GALLERY</h2>
-            <p>Below are some pictures that our inhouse media team rustled up for your eyes to feast on!</p>
+          <form action="https://formdump.codeinstitute.net/" method="post">
+            <label for="email">Email:</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
 
+            <label for="number">How many zombies?</label>
+            <input
+              type="text"
+              name="number"
+              id="number"
+              placeholder="How many zombies?"
+              required
+            />
 
-            <div class="gallery">
+            <label for="dietary">Any dietary requirements?</label>
+            <input
+              type="text"
+              name="dietary"
+              id="dietary"
+              placeholder="Any dietary requirements?"
+              required
+            />
 
+            <label for="datetime">Please select a date and time:</label>
+            <input
+              type="datetime-local"
+              name="datetime"
+              id="datetime"
+              required
+            />
 
-                <!-- Food -->
-                <figure>
-                    <img src="assets/images/double.jpeg.jpg" alt="double hamburger">
-                    <figcaption>Doubled Up Zombie Burger</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/images/cheese.jpeg.jpg" alt="an oozing cheeseburger">
-                    <figcaption>Hamstring Cheese Burger</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/images/fish.jpeg.jpg" alt="a battered fish burger">
-                    <figcaption>Fish Finger Burger</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/images/plant.jpeg.jpg" alt="a plant based burger">
-                    <figcaption>Protective Plant Burger</figcaption>
-                </figure>
+            <button type="submit">Book Now!</button>
+          </form>
 
-                <!-- Drinks -->
-                <figure>
-                    <img src="assets/images/zombie.jpeg.jpg" alt="a zombie cocktail with mint and rum">
-                    <figcaption>Zombie Guts</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/images/bloodymary.jpeg.jpg" alt="a bloody mary">
-                    <figcaption>Bloody Mary</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/images/ginwithgreens.jpeg.jpg" alt="gin n tonic with cucumber and basil">
-                    <figcaption>The Antidote</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/images/paradise.jpeg.jpg" alt="a tropical strawberry cocktail with lime and mint">
-                    <figcaption>Invisioning Paradise</figcaption>
-                </figure>
-            </div>
+          <!-- REVIEWS ! -->
 
-        </section>
-
-
-        <!-- CONTACT  -->
-
-
-        <section id="contact">
-            <div class="details">
-
-
-                <h2>CONTACT</h2>
-                <p>You can contact us via<br>
-                    <strong>Phone:</strong> +44 12345678911
-                    <br>
-                    <!-- added a pop up link with a subject -->
-                    <strong>Email:</strong><a href="mailto:thewinchester@outlook.fake?subject=Make_a_Reservation">thewinchester@outlook.fake</a>
-                    
-
-            </div>
-
-
-            <!-- BOOKING FORM -->
-
-
-            <div class="bookings">
-                <h2>RESERVE A SPOT</h2>
-
-                <form action="https://formdump.codeinstitute.net/" method="post">
-
-
-                    <label for="email">Email:</label>
-                    <input type="text" name="email" id="email" placeholder="Email" required>
-
-
-                    <label for="number">How many zombies?</label>
-                    <input type="text" name="number" id="number" placeholder="How many zombies?" required>
-
-                    <label for="dietary">Any dietary requirements?</label>
-                    <input type="text" name="dietary" id="dietary" placeholder="Any dietary requirements?" required>
-
-                    <label for="datetime">Please select a date and time:</label>
-                    <input type="datetime-local" name="datetime" id="datetime" required>
-
-
-                    <button type="submit">Book Now!</button>
-
-                </form>
- 
-                <!-- REVIEWS ! -->
-
-        
-                <div id="five-stars">
-                    <a href="https://www.tripadvisor.co.uk/" target="_blank" aria-label="go to trip advisor reviews" rel="noopener">
-                    <img src="assets/images/5-star-review.jpeg" alt="5 star review from tripadvisor">
-                    </a>
-                </div>
-        
-
-            </div>
-
-        </section>
-
+          <div id="five-stars">
+            <a
+              href="https://www.tripadvisor.co.uk/"
+              target="_blank"
+              aria-label="go to trip advisor reviews"
+              rel="noopener"
+            >
+              <img
+                src="assets/images/5-star-review.jpeg"
+                alt="5 star review from tripadvisor"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer Section-->
     <footer>
-
-        <!-- Social Networks -->
-        <ul>
-            <li><a href="https://en.wikipedia.org/wiki/Facebook" target="_blank" aria-label="Visit our Facebook page" rel="noopener"><i
-                        class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Instagram" target="_blank" aria-label="Visit our Instagram page" rel="noopener"><i
-                        class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Twitter" target="_blank" aria-label="Visit our X page" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
-            </li>
-            <li><a href="https://en.wikipedia.org/wiki/Snapchat" target="_blank" aria-label="Visit our Snapchat page" rel="noopener"><i
-                        class="fa-brands fa-snapchat"></i></a></li>
-        </ul>
-
+      <!-- Social Networks -->
+      <ul>
+        <li>
+          <a
+            href="https://en.wikipedia.org/wiki/Facebook"
+            target="_blank"
+            aria-label="Visit our Facebook page"
+            rel="noopener"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://en.wikipedia.org/wiki/Instagram"
+            target="_blank"
+            aria-label="Visit our Instagram page"
+            rel="noopener"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://en.wikipedia.org/wiki/Twitter"
+            target="_blank"
+            aria-label="Visit our X page"
+            rel="noopener"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://en.wikipedia.org/wiki/Snapchat"
+            target="_blank"
+            aria-label="Visit our Snapchat page"
+            rel="noopener"
+            ><i class="fa-brands fa-snapchat"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
-
-
-</body>
-
-
+  </body>
 </html>
