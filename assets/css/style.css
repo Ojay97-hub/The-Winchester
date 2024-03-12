@@ -604,7 +604,9 @@ caption {
 #contact a {
     font-family: "Azeret Mono", monospace;
     font-weight: 500;
-    font-size: 18px;
+    /* changed fontsize */
+    font-size: 16px;
+    text-transform: lowercase;
 }
 
 .details>h2 {
