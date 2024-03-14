@@ -94,16 +94,29 @@ Below are the key features of the website:
 
 ### VALIDATING 
 
+The websites to validate the code were W3C Markup and W3C CSS:
+
+1) W3C Markup - 100% validated other than a slight discrepancy with "trailing slash". However, the cause of this was directly linked to the extension "prettier" that was utilised to tidy up the code. 
+
+2) W3C CSS - 100% validated with no issues. 
+
 ### FUNCTIONALITY
 
 | FUNCTION | SECTION | RESULT | 
 | ----------- | ----------- | ------ 
 | ADJUST WITH SCREEN SIZE |  HEADER | PASS |
-| ADJUST WITH SCREEN SIZE |  HEADER | PASS |
-| ADJUST WITH SCREEN SIZE |  HEADER | PASS |
-| ADJUST WITH SCREEN SIZE |  HEADER | PASS |
-| ADJUST WITH SCREEN SIZE |  HEADER | PASS |
+| ADJUST WITH SCREEN SIZE |  NAVBAR | PASS |
+| ADJUST WITH SCREEN SIZE |  MENU | PASS |
+| ADJUST WITH SCREEN SIZE |  ABOUT | PASS |
+| ADJUST WITH SCREEN SIZE |  HEAD CHEF | PASS |
+| ADJUST WITH SCREEN SIZE |  GALLERY | PASS |
+| ADJUST WITH SCREEN SIZE |  CONTACT | PASS |
+| ADJUST WITH SCREEN SIZE |  FOOTER | PASS |
 | OPENING LINKS | FACEBOOK | PASS |
+| OPENING LINKS | INSTAGRAM | PASS |
+| OPENING LINKS | TWITTER/X | PASS |
+| OPENING LINKS | SNAPCHAT | PASS |
+| OPENING LINKS | TRIPADVISOR | PASS |
 
 
 ## BUGS 
@@ -114,7 +127,7 @@ Below are the key features of the website:
 
 ![screenshots of website](assets/readmeimages/accessibility.jpeg)
 
-
+The extension "wave" was put to use and 
 
 
 
