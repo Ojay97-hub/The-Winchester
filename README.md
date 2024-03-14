@@ -166,6 +166,9 @@ There could be many more sections to be added given the nature of a themed pub e
 The menu is quite simple only showing a few divs. The menu style I was aiming for was one that was demonstrated by W3Schools:
 ![screenshots of website](assets/readmeimages/w3school-menu.jpeg)
 
+### Wireframes 
+For future projects, I intend to make use of balsamiq and design wireframes beforehand. I didn't do so for this project as I didn't want to design something that could have been too ambitious where I would then struggle. The styles made for this project were done through some inspo material from other pubs that I liked the look of for instance; The Duke Williams:
+![pub website design inspiration](assets/readmeimages/dukewilliams-inspo.jpeg)
 
 ### CODING
 #### COMMITS 
