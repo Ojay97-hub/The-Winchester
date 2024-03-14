@@ -105,7 +105,7 @@ This achieved the key project goals for the intended target audience because:
 
 The websites to validate the code were W3C Markup and W3C CSS:
 
-1) W3C Markup - 100% validated other than a slight discrepancy with "trailing slash". However, the cause of this was directly linked to the extension "prettier" that was utilised to tidy up the code. 
+1) W3C Markup - 100% validated other than a slight discrepancy with "trailing slash" on around 30+ lines of code. However, the cause of this was directly linked to the extension "prettier" that was utilised to tidy up the code. 
 
 2) W3C CSS - 100% validated with no issues. 
 
@@ -130,11 +130,11 @@ The websites to validate the code were W3C Markup and W3C CSS:
 
 ## BUGS 
 
-1) On the initial deployment the custom logo did not load in but this was quickly realised due to the incorrect file pathway. 
+1) On the initial deployment the custom logo did not load in but this was quickly realised due to the incorrect file pathway of "..assets/" rather than "assets/". 
 
-2) The navbar was overflowing and failed to block display the navtoggle when attempting to make it responsive. The temporary fix here was to simply extend the media query to 777px rather than the original tablet size of 768px. This is something that would need to be looked at again to. 
+2) The navbar was overflowing and failed to block display the navtoggle when attempting to make it responsive at 768px. The temporary fix here was to simply extend the media query to 777px rather than the original tablet size of 768px. This is something that would need to be looked at again to ensure it doesn't overflow at 768px. 
 
-3) Another issue that was highlighted by **Wave** was an empty label tag in the navtoggle even though it had a font awesome icon. This was resolved by inserting a b tag with a class styled to display none. 
+3) Another issue that was highlighted by **Wave** was an empty label tag in the navtoggle causing a screen reader error, even though it had a font awesome icon contained inside. This was resolved by inserting a b tag with a class styled to display none. 
 
 ## ACCESSIBILITY
 
@@ -149,11 +149,14 @@ The extension "wave" was put to use and
 The website was deployed on github and can be accessed here: https://ojay97-hub.github.io/The-Winchester/ 
 ## FUTURE 
 
-To improve upon this website further discussion will cover the key factors of style, content, and coding:
+To improve upon this website further discussion will cover the key factors of style and coding:
 
 ### STYLE
 
-### CONTENT 
+#### MENU 
+The menu is quite simple only showing a few divs. The menu style I was aiming for was one that was demonstrated by W3Schools:
+![screenshots of website](assets/readmeimages/w3school-menu.jpeg)
+
 
 ### CODING
 
