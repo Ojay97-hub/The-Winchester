@@ -102,7 +102,7 @@ The websites to validate the code were W3C Markup and W3C CSS:
 
 ### FUNCTIONALITY
 
-| FUNCTION | SECTION | RESULT | 
+| FUNCTION | ITEM | RESULT | 
 | ----------- | ----------- | ------ 
 | ADJUST WITH SCREEN SIZE |  HEADER | PASS |
 | ADJUST WITH SCREEN SIZE |  NAVBAR | PASS |
