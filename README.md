@@ -155,7 +155,7 @@ To improve upon this website further discussion will cover the key factors of co
 There could be many more sections to be added given the nature of a themed pub experience: 
 
 1) An event page.
-2) A email newsletter sign-up. 
+2) An email newsletter sign-up. 
 3) A blog page where there could be article content regarding scifi movies etc. 
 4) A room hire page.
 5) Possibly, a local food delivery service for online food orders. 
@@ -174,6 +174,13 @@ For future projects, I intend to make use of balsamiq and design wireframes befo
 #### COMMITS 
 I am aware that early commits have, at times, been too large with the message not really conveying all that was changed i.e., features/fixes. However, the commits did improve after the middle mentor session. Going into subsequent projects, commits will be made a far better standard, now that source control was pointed out to me in the final mentor session. 
 
-## CREDIT 
+#### CODE
+Going forward I will try to ensure that there are fewer lines of code i.e., make the code clean, and avoid any redunancies where possible. 
 
-Unsplash 
+## CREDIT 
+- Initially followed the Love Running walkthrough with the header, navbar/toggle, and hero. 
+- Unsplash 
+- Favicon.io 
+- Fontawesome 
+- Wix logo maker
+- Google fonts 
