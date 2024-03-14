@@ -140,8 +140,7 @@ The websites to validate the code were W3C Markup and W3C CSS:
 
 ![screenshots of website](assets/readmeimages/accessibility.jpeg)
 
-The extension "wave" was put to use and 
-
+The extension "wave" and lighthouse was put to use to assess the accessibility of the website to ensure it is screenreader standard. The accessibility results were 100% with no errors. 
 
 
 ## DEPLOYMENT 
@@ -149,7 +148,17 @@ The extension "wave" was put to use and
 The website was deployed on github and can be accessed here: https://ojay97-hub.github.io/The-Winchester/ 
 ## FUTURE 
 
-To improve upon this website further discussion will cover the key factors of style and coding:
+To improve upon this website further discussion will cover the key factors of content, style and coding:
+
+### CONTENT
+
+There could be many more sections to be added given the nature of a themed pub experience: 
+
+1) An event page.
+2) A email newsletter sign-up. 
+3) A blog page where there could be article content regarding scifi movies etc. 
+4) A room hire page.
+5) Possibly, a local food delivery service for online food orders. 
 
 ### STYLE
 
@@ -159,5 +168,9 @@ The menu is quite simple only showing a few divs. The menu style I was aiming fo
 
 
 ### CODING
+#### COMMITS 
+I am aware that early commits have, at times, been too large with the message not really conveying all that was changed i.e., features/fixes. However, the commits did improve after the middle mentor session. Going into subsequent projects, commits will be made a far better standard, now that source control was pointed out to me in the final mentor session. 
 
 ## CREDIT 
+
+Unsplash 
