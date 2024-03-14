@@ -560,6 +560,42 @@ caption {
     margin-bottom: 10px;
 }
 
+/* head chef section */
+#chef-info {
+    font-family: "Azeret Mono", monospace;
+    text-align: center;
+    background-color: #1c1d21;
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 3rem 1rem;
+    max-width: 100%;
+}
+
+#chef-info figcaption {
+    text-decoration: underline;
+}
+
+#chef-info img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #9a161c;
+    border-radius: 10px;
+}
+
+#chef-info h2 {
+    margin-bottom: 10px;
+}
+
+#chef-info p {
+    margin: 5px;
+    padding: 10px;
+}
+
+#chef-info br {
+    margin: 10px;
+}
+
 /* Gallery section - will compact all sections to rid of redundancy */
 #gallery {
     font-family: "Azeret Mono", monospace;
