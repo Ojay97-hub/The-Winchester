@@ -919,6 +919,12 @@ footer i {
         left: 10%;
     }
 
+    /* CHEF */
+    #chef-info img {
+        width: 550px;
+    }
+
+    /* GALLERY */
     .gallery img {
         max-width: 80%;
     }
