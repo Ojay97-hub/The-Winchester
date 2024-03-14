@@ -92,6 +92,18 @@ Below are the key features of the website:
 
 ## TESTING 
 
+### VALIDATING 
+
+### FUNCTIONALITY
+
+| FUNCTION | SECTION | RESULT | 
+| ----------- | ----------- | ------ 
+| ADJUST WITH SCREEN SIZE |  HEADER | PASS |
+| ADJUST WITH SCREEN SIZE |  HEADER | PASS |
+| ADJUST WITH SCREEN SIZE |  HEADER | PASS |
+| ADJUST WITH SCREEN SIZE |  HEADER | PASS |
+| ADJUST WITH SCREEN SIZE |  HEADER | PASS |
+| OPENING LINKS | FACEBOOK | PASS |
 
 
 ## BUGS 
@@ -108,6 +120,7 @@ Below are the key features of the website:
 
 ## DEPLOYMENT 
 
+The website was deployed on github and can be accessed here: https://ojay97-hub.github.io/The-Winchester/ 
 ## FUTURE 
 
 To improve upon this website further discussion will cover the key factors of style, content, and coding:
