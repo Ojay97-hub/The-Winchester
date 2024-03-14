@@ -829,7 +829,8 @@ footer i {
     }
 
     #themed {
-        width: 700px;
+        /* made width slightly bigger for stylistic effect */
+        width: 750px;
     }
 
     .soft-drinks,
