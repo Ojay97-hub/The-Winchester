@@ -469,6 +469,8 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
+    /* adding width to location to fill screen */
+    width: 80%;
 
 }
 
@@ -751,8 +753,8 @@ footer i {
 /* media queries */
 
 /* for tablet size - 768px */
-/* change media screen */
-@media screen and (min-width: 777px) {
+/* change media screen size to larger due to nav overflow bug */
+@media screen and (min-width: 864px) {
     /* Header */
 
 
