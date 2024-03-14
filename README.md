@@ -4,7 +4,7 @@ The Winchester is a website that brings together fans of the movie "Shaun of the
 
 ## SCREENSHOTS 
 
-![screenshots of website](assets/images/website-screenshots.jpeg)
+![screenshots of website](assets/readmeimages/website-screenshots.jpeg)
 
 ## USER EXPERIENCE | UX 
 
@@ -59,6 +59,35 @@ The Winchester is a website that brings together fans of the movie "Shaun of the
 
 ## FEATURES 
 
+Below are the key features of the website: 
+
+### HERO
+
+![hero page](assets/readmeimages/hero.jpeg)
+
+### MENU 
+
+
+![menu page](assets/readmeimages/menu.jpeg)
+
+
+
+
+### ABOUT 
+
+![about page](assets/readmeimages/about.jpeg)
+
+
+![head chef page](assets/readmeimages/head-chef-2.jpeg)
+
+### GALLERY 
+
+![gallery page](assets/readmeimages/gallery.jpeg)
+
+
+### CONTACT 
+
+![contact page](assets/readmeimages/contact.jpeg)
 
 
 ## TESTING 
@@ -67,12 +96,26 @@ The Winchester is a website that brings together fans of the movie "Shaun of the
 
 ## BUGS 
 
+
+
 ## ACCESSIBILITY
+
+![screenshots of website](assets/readmeimages/accessibility.jpeg)
+
+
 
 
 
 ## DEPLOYMENT 
 
 ## FUTURE 
+
+To improve upon this website further discussion will cover the key factors of style, content, and coding:
+
+### STYLE
+
+### CONTENT 
+
+### CODING
 
 ## CREDIT 
