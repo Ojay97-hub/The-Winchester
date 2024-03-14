@@ -570,6 +570,8 @@ caption {
     border: 2px solid black;
     padding: 3rem 1rem;
     max-width: 100%;
+
+
 }
 
 #chef-info figcaption {
@@ -921,8 +923,6 @@ footer i {
         max-width: 80%;
     }
 
-
-
 }
 
 
@@ -952,6 +952,25 @@ footer i {
     #pub-logo img {
         width: 10%;
         height: 10%;
+    }
+
+
+    /* CHEF */
+
+    #chef-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .chef-img {
+        margin: 10px 10px;
+        width: 100%;
+    }
+
+    #chef-info img {
+        max-width: 600px;
+
     }
 
 
