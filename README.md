@@ -65,29 +65,38 @@ Below are the key features of the website:
 
 ![hero page](assets/readmeimages/hero.jpeg)
 
+This achieved the key project goals for the intended target audience because:
+
 ### MENU 
 
 
 ![menu page](assets/readmeimages/menu.jpeg)
 
-
+This achieved the key project goals for the intended target audience because:
 
 
 ### ABOUT 
 
 ![about page](assets/readmeimages/about.jpeg)
 
+This achieved the key project goals for the intended target audience because:
 
 ![head chef page](assets/readmeimages/head-chef-2.jpeg)
+
+This achieved the key project goals for the intended target audience because:
 
 ### GALLERY 
 
 ![gallery page](assets/readmeimages/gallery.jpeg)
 
+This achieved the key project goals for the intended target audience because:
+
 
 ### CONTACT 
 
 ![contact page](assets/readmeimages/contact.jpeg)
+
+This achieved the key project goals for the intended target audience because:
 
 
 ## TESTING 
@@ -121,7 +130,11 @@ The websites to validate the code were W3C Markup and W3C CSS:
 
 ## BUGS 
 
+1) On the initial deployment the custom logo did not load in but this was quickly realised due to the incorrect file pathway. 
 
+2) The navbar was overflowing and failed to block display the navtoggle when attempting to make it responsive. The temporary fix here was to simply extend the media query to 777px rather than the original tablet size of 768px. This is something that would need to be looked at again to. 
+
+3) Another issue that was highlighted by **Wave** was an empty label tag in the navtoggle even though it had a font awesome icon. This was resolved by inserting a b tag with a class styled to display none. 
 
 ## ACCESSIBILITY
 
