@@ -153,8 +153,7 @@ Below are the predominant website functions I would expect to work. I carried ou
 | CUSTOM ERROR PAGE OPENS | 404.html | PASS | 
 | FORM REQUIRED LABELS | FORM INPUTS | PASS | 
 | CLICK ON: EMAIL POP UP FOR RESERVATION | EMAIL | PASS |
-
-
+| IMAGES LOAD IN | ALL SECTIONS | PASS | 
 
 ## BUGS 
 
@@ -186,7 +185,9 @@ The site was deployed onto github pages:
 6) Back on the repo page you can head to deployments.
 7) The link should display under github-pages deployments.  
 
-The website was deployed on github and can be accessed here: 
+The website was deployed on github and can be accessed here: https://ojay97-hub.github.io/The-Winchester/ 
+
+Enjoy!
 
 
 ## FUTURE 
