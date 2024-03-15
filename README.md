@@ -98,6 +98,11 @@ This achieved the key project goals for the intended target audience because:
 
 This achieved the key project goals for the intended target audience because:
 
+### ERROR 
+
+![error page](assets/readmeimages/404error.jpeg)
+
+Added in an error page which shows a glimpse of whats to come in the working website. Keeping that tongue and cheek language style which should be inviting for the potential users.         
 
 ## TESTING 
 
@@ -121,11 +126,19 @@ The websites to validate the code were W3C Markup and W3C CSS:
 | ADJUST WITH SCREEN SIZE |  GALLERY | PASS |
 | ADJUST WITH SCREEN SIZE |  CONTACT | PASS |
 | ADJUST WITH SCREEN SIZE |  FOOTER | PASS |
-| OPENING LINKS | FACEBOOK | PASS |
-| OPENING LINKS | INSTAGRAM | PASS |
-| OPENING LINKS | TWITTER/X | PASS |
-| OPENING LINKS | SNAPCHAT | PASS |
-| OPENING LINKS | TRIPADVISOR | PASS |
+| OPENING LINKS IN NEW TAB| FACEBOOK | PASS |
+| OPENING LINKS IN NEW TAB| INSTAGRAM | PASS |
+| OPENING LINKS IN NEW TAB| TWITTER/X | PASS |
+| OPENING LINKS IN NEW TAB| SNAPCHAT | PASS |
+| OPENING LINKS IN NEW TAB| TRIPADVISOR | PASS |
+| HOVER CHANGES COLOUR | NAV LINKS | PASS |
+| HOVER CHANGES COLOUR | BOOK BUTTON | PASS |
+| CONFIRMATION PAGE | FORM | PASS |
+| VIDEO USER PLAY | YOUTUBE VIDEO | PASS |
+| CLICK ON LOGO REVERTS TO HOME PAGE | HEADER LOGO | PASS | 
+| CUSTOM ERROR PAGE OPENS | 404.html | PASS | 
+| FORM REQUIRED LABELS | FORM INPUTS | PASS | 
+
 
 
 ## BUGS 
