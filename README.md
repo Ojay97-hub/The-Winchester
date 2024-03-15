@@ -158,7 +158,19 @@ The extension "wave" and lighthouse was put to use to assess the accessibility o
 
 ## DEPLOYMENT 
 
-The website was deployed on github and can be accessed here: https://ojay97-hub.github.io/The-Winchester/ 
+The site was deployed onto github pages:
+
+1) On the repository click settings. 
+2) On the source click main branch.  
+3) Click save. 
+4) Page will refresh.  
+5) Retrieve the page link under github pages header. 
+6) Back on the repo page you can head to deployments.
+7) The link should display under github-pages deployments.  
+
+The website was deployed on github and can be accessed here: 
+
+
 ## FUTURE 
 
 To improve upon this website further discussion will cover the key factors of content, style and coding:
