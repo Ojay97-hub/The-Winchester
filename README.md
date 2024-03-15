@@ -43,7 +43,7 @@ The Winchester is a website that brings together fans of the movie "Shaun of the
 #### Frequent User Goals:  
 
 - As a frequent user, I would be interested in some form of payback for regular customer behaviour.
-- As a frequent user, I would be again would be interested to see developments with food and drink.
+- As a frequent user, I would be interested to see developments with food and drink.
 - As a frequent user, I would like to see blog posts, newsletters, or ways I can be frequently informed about the pub. 
 
 #### The Winchester stands to fulfill these goals by:
@@ -65,44 +65,53 @@ Below are the key features of the website:
 
 ![hero page](assets/readmeimages/hero.jpeg)
 
-This achieved the key project goals for the intended target audience because:
+- The hero image acts as a window to the interior of the pub. 
+- It allows users to see the layout and style of the pub which to some can be very appealing and enticing and to others may be the deciding factor whether they would like to come or not. 
+- This also helps by reassuring the user that the pub does in fact exist and provides integrity. 
 
 ### MENU 
 
-
 ![menu page](assets/readmeimages/menu.jpeg)
 
-This achieved the key project goals for the intended target audience because:
+- The menu page is simple but is extremely readable and easy to follow. Sort of does what it says on the tin. 
 
+- The contrasting and punchy styling resembles one that is contemporary and modern, and is something you could find in a trendy food market that happens to sells craft beer. 
+
+- The food and drink was thematically suited to zombies and shaun of the dead. This would come as expected, given it is advertised as a Shaun of the dead themed pub experience. The names are original and quirky. 
 
 ### ABOUT 
 
 ![about page](assets/readmeimages/about.jpeg)
 
-This achieved the key project goals for the intended target audience because:
+- The about page has your basic info required to allow the users to 1. Know the location 2. know the trading times 3. Have some background context regarding its purpose 4. See a video giving even more context of what the pub is based on for users who may not be well accustomed to the movie. 
 
-![head chef page](assets/readmeimages/head-chef-2.jpeg)
+![head chef](assets/readmeimages/head-chef-2.jpeg)
 
-This achieved the key project goals for the intended target audience because:
+- The head chef section really gives the user an insight as to who is behind all of the thematic food and drink. The lighthearted and humourous description really sells positivity to the user, which would add further appeal and desire for them to be patrons. But also for them to hopefully find using the website enjoyable. 
+
+- The image used is eye-catching and clearly stands out. The clarity of it may help users feel like there is transparency and therefore they may build trust with the website. 
 
 ### GALLERY 
 
 ![gallery page](assets/readmeimages/gallery.jpeg)
 
-This achieved the key project goals for the intended target audience because:
+- The gallery contains 8 images all based off the thematic food and drink items in the menu section. Unsplash really had some great quality photos to use. They were eventually resized so that they look more identical, rather than having a few images that looked more potrait rather than landscape; which resulted in a better flowing gallery and in turn is beneficial for the user.   
 
 
 ### CONTACT 
 
 ![contact page](assets/readmeimages/contact.jpeg)
 
-This achieved the key project goals for the intended target audience because:
+- The contact page has all that one need for to get in contact 1. phone number 2. email. 
+- The contact presents the user with a form to fill that is super quick and easy to complete for them to make a reservation. 
+- A 5 star trip advisor image is displayed below the form as a way to say to the user - we are legit and people have been here before and thoroughly enjoyed their experience. This provides comfort to the user which may persuade them to make a reservation. 
+- The footer which contains social media links, acts as an extension to the contacting category of elements. Having these displayed as fun clickable icons allows the user to investigate the pub further where they are exposed to more content that could sway them into making a reservation. 
 
 ### ERROR 
 
 ![error page](assets/readmeimages/404error.jpeg)
 
-Added in an error page which shows a glimpse of whats to come in the working website. Keeping that tongue and cheek language style which should be inviting for the potential users.         
+- Added in an error page which shows a glimpse of whats to come in the working website. Keeping that tongue and cheek language style which should be inviting for the potential users.         
 
 ## TESTING 
 
@@ -115,6 +124,8 @@ The websites to validate the code were W3C Markup and W3C CSS:
 2) W3C CSS - 100% validated with no issues. 
 
 ### FUNCTIONALITY
+
+Below are the predominant website functions I would expect to work. I carried out testing and results are as follows:     
 
 | FUNCTION | ITEM | RESULT | 
 | ----------- | ----------- | ------ 
@@ -138,6 +149,7 @@ The websites to validate the code were W3C Markup and W3C CSS:
 | CLICK ON LOGO REVERTS TO HOME PAGE | HEADER LOGO | PASS | 
 | CUSTOM ERROR PAGE OPENS | 404.html | PASS | 
 | FORM REQUIRED LABELS | FORM INPUTS | PASS | 
+| CLICK ON: EMAIL POP UP FOR RESERVATION | EMAIL | PASS |
 
 
 
@@ -149,12 +161,15 @@ The websites to validate the code were W3C Markup and W3C CSS:
 
 3) Another issue that was highlighted by **Wave** was an empty label tag in the navtoggle causing a screen reader error, even though it had a font awesome icon contained inside. This was resolved by inserting a b tag with a class styled to display none. 
 
+4) Putting the tripadvisor image inside the footer created a problem where the footer was too large and covering contact content - I tried putting margin-bottom on the contact section but this was to no avail. Instead, I put the image underneath the form and this actually looked better stylistically.  
+
 ## ACCESSIBILITY
 
 ![screenshots of website](assets/readmeimages/accessibility.jpeg)
 
 The extension "wave" and lighthouse was put to use to assess the accessibility of the website to ensure it is screenreader standard. The accessibility results were 100% with no errors. 
 
+Wave was good at indicating errors and suggesting fixes. For example, the table had empty headers and suggested that they should be replaced with td tags; which makes sense because you cannot have an empty header. 
 
 ## DEPLOYMENT 
 
@@ -209,3 +224,5 @@ Going forward I will try to ensure that there are fewer lines of code i.e., make
 - Fontawesome 
 - Wix logo maker
 - Google fonts 
+
+- colour scheme was taken from the Shaun of the Dead movie poster. 
