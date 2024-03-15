@@ -107,8 +107,9 @@ Below are the key features of the website:
 
 - The contact page has all that one would need to get in contact 1. phone number 2. email. 
 - The contact page presents the user with a form to fill that is super quick and easy to complete for them to make a reservation. Applying the word zombie re-engages the user into the idea that they will be brought into a world of immersion before they make a reservation. 
-- A 5 star trip advisor image is displayed below the form as a way to say to the user - we are legit and people have been here before and thoroughly enjoyed their experience. This provides comfort to the user which may persuade them to make a reservation. 
 - The footer which contains social media links, acts as an extension to the contacting category of elements. Having these displayed as fun clickable icons allows the user to investigate the pub further where they are exposed to more content that could sway them into making a reservation. 
+- A 5 star trip advisor image is displayed below the form as a way to say to the user - we are legit and people have been here before and thoroughly enjoyed their experience. This provides comfort to the user which may persuade them to make a reservation:
+ ![trip advisor page](assets/readmeimages/tripadvisor.jpeg)
 
 ### ERROR 
 
