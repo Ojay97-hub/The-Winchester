@@ -49,9 +49,10 @@ The Winchester is a website that brings together fans of the movie "Shaun of the
 #### The Winchester stands to fulfill these goals by:
 
 - The website has a punchy and contrasting colour scheme that matches the shaun of the dead movie poster.
-- The website has a simple and well-structured page layout that is easy to navigate.
+- The website has a simple, one-page, well-structured layout that is easy to navigate.
 - Presents an obvious food and drink menu.
 - Presents a gallery for the food and drink menu.
+- Has background info. on chef. 
 - Has an about section that provides more context with prominent references to shaun of the dead. 
 - Has a whole section dedicated to contact, bookings, times, and location.
 - Offers a link to social media accounts and tripadvisor. 
@@ -68,6 +69,7 @@ Below are the key features of the website:
 - The hero image acts as a window to the interior of the pub. 
 - It allows users to see the layout and style of the pub which to some can be very appealing and enticing and to others may be the deciding factor whether they would like to come or not. 
 - This also helps by reassuring the user that the pub does in fact exist and provides integrity. 
+- The logo over the hero image gives an edge of professionalism with the slogan, "let it blow!" stemming from the line from the movie. 
 
 ### MENU 
 
@@ -77,13 +79,14 @@ Below are the key features of the website:
 
 - The contrasting and punchy styling resembles one that is contemporary and modern, and is something you could find in a trendy food market that happens to sells craft beer. 
 
-- The food and drink was thematically suited to zombies and shaun of the dead. This would come as expected, given it is advertised as a Shaun of the dead themed pub experience. The names are original and quirky. 
+- The food and drink was thematically suited to zombies and shaun of the dead. This would come as expected, given it is advertised as a Shaun of the dead themed pub experience. The names are original and quirky. That could be fun for the users to read and start to feel immersed into the zombie universe. 
 
 ### ABOUT 
 
 ![about page](assets/readmeimages/about.jpeg)
 
 - The about page has your basic info required to allow the users to 1. Know the location 2. know the trading times 3. Have some background context regarding its purpose 4. See a video giving even more context of what the pub is based on for users who may not be well accustomed to the movie. 
+- It is simple for now but there is lots of room for further development. 
 
 ![head chef](assets/readmeimages/head-chef-2.jpeg)
 
@@ -95,7 +98,7 @@ Below are the key features of the website:
 
 ![gallery page](assets/readmeimages/gallery.jpeg)
 
-- The gallery contains 8 images all based off the thematic food and drink items in the menu section. Unsplash really had some great quality photos to use. They were eventually resized so that they look more identical, rather than having a few images that looked more potrait rather than landscape; which resulted in a better flowing gallery and in turn is beneficial for the user.   
+- The gallery contains 8 images all based off the thematic food and drink items in the menu section. Unsplash really had some great quality photos to use. They were eventually resized so that they look more identical, rather than having a few images that looked more potrait rather than landscape; which resulted in a better flowing gallery and in turn gives off a smoother feel for the user. Having them be more symmetrical/uniform is easier on the eye.   
 
 
 ### CONTACT 
@@ -103,7 +106,7 @@ Below are the key features of the website:
 ![contact page](assets/readmeimages/contact.jpeg)
 
 - The contact page has all that one would need to get in contact 1. phone number 2. email. 
-- The contact presents the user with a form to fill that is super quick and easy to complete for them to make a reservation. 
+- The contact page presents the user with a form to fill that is super quick and easy to complete for them to make a reservation. Applying the word zombie re-engages the user into the idea that they will be brought into a world of immersion before they make a reservation. 
 - A 5 star trip advisor image is displayed below the form as a way to say to the user - we are legit and people have been here before and thoroughly enjoyed their experience. This provides comfort to the user which may persuade them to make a reservation. 
 - The footer which contains social media links, acts as an extension to the contacting category of elements. Having these displayed as fun clickable icons allows the user to investigate the pub further where they are exposed to more content that could sway them into making a reservation. 
 
@@ -206,13 +209,15 @@ There could be many more sections to be added given the nature of a themed pub e
 The menu is quite simple only showing a few divs. The menu style I was aiming for was one that was demonstrated by W3Schools:
 ![screenshots of website](assets/readmeimages/w3school-menu.jpeg)
 
+- This has a cool design process where you can click the header links which will take you to the items. This is something I might try to reenact in future personal projects.
+
 ### Wireframes 
 For future projects, I intend to make use of balsamiq and design wireframes beforehand. I didn't do so for this project as I didn't want to design something that could have been too ambitious where I would then struggle. The styles made for this project were done through some inspo material from other pubs that I liked the look of for instance; The Duke Williams:
 ![pub website design inspiration](assets/readmeimages/dukewilliams-inspo.jpeg)
 
 ### CODING
 #### COMMITS 
-I am aware that early commits have, at times, been too large with the message not really conveying all that was changed i.e., features/fixes. However, the commits did improve after the middle mentor session. Going into subsequent projects, commits will be made a far better standard, now that source control was pointed out to me in the final mentor session. 
+I am aware that early commits have, at times, been too large with the message not really conveying all that was changed i.e., features/fixes. However, the commits did improve after the middle mentor session. Going into subsequent projects, commits will be pushed at a higher standard, now that source control was pointed out to me in the final mentor session by my mentor, Rory Patrick. 
 
 #### CODE
 Going forward I will try to ensure that there are fewer lines of code i.e., make the code clean, and avoid any redunancies where possible. 
