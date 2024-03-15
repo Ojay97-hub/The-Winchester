@@ -1,8 +1,5 @@
-/* google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-/* To override default styling by browser*/
 * {
     padding: 0;
     margin: 0;
@@ -11,20 +8,16 @@
 
 }
 
-/* body */
 body {
-    /* min-height to ensure content occupies the whole screen (coding2go) */
     min-height: 100vh;
     background-color: white;
 
 }
 
-/* Header */
 header {
     background-color: #9a161c;
     padding: 15px 1rem;
     position: sticky;
-    /* making sure the sticky position works */
     top: 0;
     left: 0;
     z-index: 99;
@@ -37,7 +30,6 @@ header {
 
 }
 
-/* fixing the wave error label fill */
 header .label-fill {
     position: absolute;
     display: none;
@@ -51,10 +43,7 @@ header .label-fill {
     text-align: center;
 }
 
-
-/* navbar (skillthrive - 3 different types of nav) */
 nav {
-    /* taken from love running walkthrough */
     position: absolute;
     background-color: #9a161c;
     width: 100%;
@@ -78,7 +67,6 @@ a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    /* experiencing bug with navbar overflow and toggle not displaying at 768px */
     padding: 5px;
 
 }
@@ -97,7 +85,6 @@ a {
     justify-content: center;
 }
 
-/* giving better spacing */
 nav a {
     padding: 0px 5px;
     margin: 0px 10px;
@@ -112,62 +99,43 @@ a.active:hover {
 
 }
 
-
-/* nav toggle - love running */
 #nav-toggle:checked~nav {
     display: block;
 
-
 }
-
 
 #nav-toggle {
     display: none;
 }
 
-
 .nav-toggle-label {
     font-size: 2.5rem;
     color: white;
 
-
 }
 
-
-/* main */
-
-/* changed main with no height */
 main {
     flex: 1 0 auto;
     width: 100%;
 
 }
 
-
-/* main > hero - googled optimised web images */
-
-
 #hero {
     height: 600px;
     width: 100%;
     background: url(../images/pexels-erik-mclean-5662826\ \(1\).jpg) no-repeat center center/cover;
     position: relative;
-    /* height: 100vh; */
+
 }
 
-
-
-/* adding a pub logo  */
 #pub-logo {
     position: sticky;
     display: flex;
-    /* centering the logo */
     justify-content: center;
     align-items: center;
     top: 50%;
     left: 50%;
 }
-
 
 #pub-logo img {
     width: 150px;
@@ -176,13 +144,9 @@ main {
     border-radius: 5px;
 }
 
-
-/* main > menu */
-
 #menu {
     font-family: "Azeret Mono", monospace;
     text-align: left;
-    /* MADE THE BACKGROUND MORE PUNCHY & CONTRASTED */
     background-color: #1c1d21;
     color: white;
     justify-content: center;
@@ -191,9 +155,7 @@ main {
     border: 2px solid black;
     padding: 64px 1rem;
 
-
 }
-
 
 .menu-title,
 .fm,
@@ -214,24 +176,16 @@ main {
     justify-content: space-evenly;
 }
 
-
 #menu>h1 {
     text-decoration: underline;
     text-transform: capitalize;
 }
-
-
-/* FOOD SECTION */
-
-
-/* burgers */
 
 #burgers>.burger-title {
     font-size: 28px;
     text-align: center;
     text-transform: capitalize;
     padding: 15px 1rem;
-
 
 }
 
@@ -242,12 +196,10 @@ main {
     color: black;
     font-size: 80%;
     max-width: fit-content;
-    /* min-width: auto; */
     padding: 20px 1rem;
     margin-bottom: 20px;
 
 }
-
 
 #burgers,
 .sides {
@@ -255,15 +207,12 @@ main {
 
 }
 
-
 .burger-item {
     margin-bottom: 20px;
     padding: 10px;
 
 }
 
-
-/* sides */
 .sides {
     background-color: white;
     border: 3px solid #9a161c;
@@ -272,10 +221,8 @@ main {
     font-size: 80%;
     max-width: fit-content;
     max-height: 597px;
-    /* to match burger div */
     padding: 20px 1rem;
     margin: 0 10px;
-    /* to give spacing between divs */
     text-align: center;
 
 }
@@ -295,14 +242,13 @@ main {
     margin: 20px;
 }
 
-
-/* Moving the spans to the right! */
 .burger-item h2,
 .sides h2,
 .drink-item h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 
@@ -313,18 +259,12 @@ main {
     margin-left: 15px;
 }
 
-
-/* DRINK SECTION */
-
-
 #drink-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 
 }
-
-/* themed drinks */
 
 #themed {
     background-color: white;
@@ -346,7 +286,6 @@ main {
     padding: 15px 1rem;
 }
 
-
 #themed .drink-item {
     margin-bottom: 20px;
     padding: 10px;
@@ -363,15 +302,14 @@ main {
 #themed h3 span {
     text-align: right;
     margin-left: 15px;
+
 }
-
-
-/* listed drinks */
 
 .side-drinks {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
 }
 
 .beer,
@@ -392,12 +330,9 @@ main {
     padding: 20px 1rem;
     margin: 5px 10px;
     text-align: center;
-    /* make same size*/
     flex: 1;
 
-
 }
-
 
 .beer li,
 .wine li,
@@ -407,9 +342,6 @@ main {
     margin: 20px;
 }
 
-
-
-/* ABOUT */
 #about {
     font-family: "Azeret Mono", monospace;
     text-align: center;
@@ -420,9 +352,7 @@ main {
     padding: 64px 1rem;
     max-width: 100%;
 
-
 }
-
 
 #about {
     display: flex;
@@ -431,7 +361,6 @@ main {
     align-items: center;
 
 }
-
 
 .back-story>h2 {
     text-align: center;
@@ -446,11 +375,13 @@ main {
     flex-wrap: wrap;
     flex-direction: column;
     max-width: 80%;
+
 }
 
 .info {
     align-items: center;
     text-align: center;
+
 }
 
 
@@ -461,25 +392,19 @@ main {
 
 }
 
-
 #about.back-story {
     margin-bottom: 20px;
+
 }
-
-
-/* embedded map */
-
 
 #location {
     margin: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* adding width to location to fill screen */
     width: 80%;
 
 }
-
 
 #location iframe {
     width: 80%;
@@ -489,21 +414,20 @@ main {
 
 }
 
-
-/* MEMED Video */
 #video-content {
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
 
+}
 
 #video-context>h2,
 .video {
     margin-bottom: 20px;
     max-width: 100%;
+
 }
 
 .video {
@@ -511,10 +435,8 @@ main {
     min-height: 25vh;
     border: 2px solid #9a161c;
     border-radius: 10px;
+
 }
-
-/* Trading Times */
-
 
 #trading-times>h2 {
     text-align: center;
@@ -522,8 +444,8 @@ main {
     margin-top: 20px;
     margin-bottom: 20px;
     padding-right: 20px;
-}
 
+}
 
 #trading-times {
     max-width: 100%;
@@ -536,14 +458,14 @@ main {
     border-radius: 10px;
     padding: 20px;
     margin: 10px 0px;
-}
 
+}
 
 table {
     width: 100%;
     margin-bottom: 20px;
-}
 
+}
 
 th,
 td {
@@ -551,16 +473,15 @@ td {
     text-align: left;
     border-bottom: 1px solid black;
 
-
 }
 
 caption {
     text-align: left;
     font-weight: bold;
     margin-bottom: 10px;
+
 }
 
-/* head chef section */
 #chef-info {
     font-family: "Azeret Mono", monospace;
     text-align: center;
@@ -571,11 +492,11 @@ caption {
     padding: 3rem 1rem;
     max-width: 100%;
 
-
 }
 
 #chef-info figcaption {
     text-decoration: underline;
+
 }
 
 #chef-info img {
@@ -598,11 +519,9 @@ caption {
     margin: 10px;
 }
 
-/* Gallery section - will compact all sections to rid of redundancy */
 #gallery {
     font-family: "Azeret Mono", monospace;
     text-align: center;
-    /* MADE THE BACKGROUND MORE PUNCHY & CONTRASTED */
     background-color: #1c1d21;
     color: white;
     box-sizing: border-box;
@@ -623,7 +542,6 @@ caption {
     flex-wrap: wrap;
 }
 
-/* media queries 1200px set width to 600px  */
 .gallery img {
     max-width: 100%;
     height: auto;
@@ -637,9 +555,6 @@ caption {
     background-color: rgb(71, 71, 144);
 }
 
-
-/* CONTACT */
-
 #contact {
     font-family: "Azeret Mono", monospace;
     text-align: left;
@@ -650,15 +565,14 @@ caption {
     padding: 64px 1rem;
     max-width: 100%;
 
-
 }
 
 #contact a {
     font-family: "Azeret Mono", monospace;
     font-weight: 500;
-    /* changed fontsize */
     font-size: 16px;
     text-transform: lowercase;
+
 }
 
 .details>h2 {
@@ -667,19 +581,15 @@ caption {
     margin-bottom: 20px;
 }
 
-
 .details>p {
     margin: 0;
     padding: 0;
     line-height: 1.5;
-    /* so the words wrap and content doesn't extend beyond container */
     max-width: 100%;
     word-wrap: break-word;
     text-align: center;
+
 }
-
-/* BOOKING FORM */
-
 
 .bookings>h2 {
     text-align: center;
@@ -688,7 +598,6 @@ caption {
     margin-top: 20px;
 }
 
-
 form {
     display: flex;
     flex-direction: column;
@@ -696,14 +605,11 @@ form {
 
 }
 
-
 label {
-    /* so label fits within screen width and not overflow */
     font-size: 14px;
     margin-top: 10px;
 
 }
-
 
 input {
     width: 100%;
@@ -714,9 +620,6 @@ input {
     box-sizing: border-box;
 
 }
-
-
-/* form button */
 
 button {
     background-color: #9a161c;
@@ -731,16 +634,9 @@ button {
 
 }
 
-
-/* same background color as in the nav */
-
-
 button:hover {
     background-color: rgb(71, 71, 144);
 }
-
-/* 5 star review tripadvisor */
-
 
 #five-stars {
     display: flex;
@@ -760,9 +656,6 @@ button:hover {
 
 }
 
-/* footer */
-
-
 footer {
     background-color: #9a161c;
     color: white;
@@ -774,10 +667,6 @@ footer {
 
 }
 
-
-/* footer socials */
-
-
 footer>ul {
     display: flex;
     justify-content: space-evenly;
@@ -786,23 +675,14 @@ footer>ul {
 
 }
 
-
 footer i {
     font-size: 200%;
     padding: 5%;
     color: white;
 }
 
-
-/* media queries */
-
-/* for tablet size - 768px */
-/* change media screen size to larger due to nav overflow bug */
 @media screen and (min-width: 864px) {
-    /* Header */
 
-
-    /* changed the size of logo to fit the navbar more nicely */
     #logo {
         font-size: 120%;
         line-height: 75px;
@@ -839,20 +719,14 @@ footer i {
         display: none;
     }
 
-
-    /* MENU */
     #burgers {
-        /* margin-bottom: 20px; */
         margin-right: 20px;
 
     }
 
     .sides {
-        /* added margin-bottom to match the burgers*/
         margin-bottom: 20px;
     }
-
-    /* DRINKS */
 
     #drink-content,
     .side-drinks {
@@ -867,7 +741,6 @@ footer i {
     }
 
     #themed {
-        /* made width slightly bigger for stylistic effect */
         width: 750px;
     }
 
@@ -876,21 +749,15 @@ footer i {
         margin-bottom: 20px;
     }
 
-
-    /* ABOUT */
     #about {
         justify-content: space-evenly;
     }
 
 
     #location {
-        /* making the map fill the width */
         width: 80%;
     }
 
-
-    /* video */
-    /* increase size of video */
     .video {
         width: 80%;
         height: 30vh;
@@ -898,7 +765,6 @@ footer i {
         border-radius: 10px;
     }
 
-    /* aligning the items to center */
     div#video-context {
         display: flex;
         justify-content: center;
@@ -911,46 +777,36 @@ footer i {
         text-align: center;
     }
 
-    /* FORM */
     form {
-        /* making the form not be super wide */
         position: sticky;
         max-width: 80%;
         left: 10%;
     }
 
-    /* CHEF */
     #chef-info img {
         width: 550px;
     }
 
-    /* GALLERY */
     .gallery img {
         max-width: 80%;
     }
 
 }
 
-
-/* for desktop size - 1200px */
-
-
 @media screen and (min-width: 1200px) {
-
-    /* FONT SIZE  */
 
     #logo {
         font-size: 150%;
+
     }
 
-    /* reduce the screen fonts to large from larger */
     p,
     li,
     a {
         font-size: large;
+
     }
 
-    /* Hero */
     #hero {
         height: 75vh;
     }
@@ -958,20 +814,20 @@ footer i {
     #pub-logo img {
         width: 10%;
         height: 10%;
+
     }
-
-
-    /* CHEF */
 
     #chef-info {
         display: flex;
         justify-content: center;
         align-items: center;
+
     }
 
     .chef-img {
         margin: 10px 10px;
         width: 100%;
+
     }
 
     #chef-info img {
@@ -979,18 +835,17 @@ footer i {
 
     }
 
-
-    /* FOOD */
     #menu-content {
         justify-content: center;
+
     }
 
-    /* Drink Menu */
     #drink-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
     }
 
     #themed {
@@ -1003,7 +858,6 @@ footer i {
         justify-content: space-evenly;
         flex-wrap: wrap;
 
-
     }
 
     .side-drinks div {
@@ -1011,29 +865,20 @@ footer i {
         width: 300px;
     }
 
-
-    /* FORM */
     form {
-        /* making the form not be super wide */
         position: sticky;
         max-width: 80%;
         left: 10%;
     }
 
-
-    /* Gallery */
-
     .gallery img {
         max-width: 500px;
         margin: 10px 20px;
-        /* height: 30vh; */
 
     }
 
-
 }
 
-/* Even bigger screens */
 @media screen and (min-width: 2150px) {
     .gallery {
         max-width: 80%;
